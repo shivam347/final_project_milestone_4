@@ -1,0 +1,198 @@
+<html>
+<head>
+<title>TestNG:  heroku chrome test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>heroku chrome test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jan 29 13:58:58 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>63 seconds (63253 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest.verifyHeadingText()'><b>verifyHeadingText</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest<br/>
+<a href="#Output-1736884464" onClick='toggleBox("Output-1736884464", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1736884464" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1736884464">
+Initializing ABtesting<br/>
+fetching heading text for abtesting<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest@41ed6f60</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest.verifyPageLoadsUnder3Seconds()'><b>verifyPageLoadsUnder3Seconds</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest<br/>
+<a href="#Output-1012774170" onClick='toggleBox("Output-1012774170", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1012774170" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1012774170">
+Initializing PerformancePage<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@139d30b6</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest.verifyBasicAuth()'><b>verifyBasicAuth</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest<br>Parameters: wrong, admin, false<br/>
+<a href="#Output-1762465700" onClick='toggleBox("Output-1762465700", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1762465700" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1762465700">
+Initializing Basic auth<br/>
+Navigating with Basic Auth credentials<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@139d30b6</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest.verifyAddRemoveTest()'><b>verifyAddRemoveTest</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest<br/>
+<a href="#Output-1559855554" onClick='toggleBox("Output-1559855554", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1559855554" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1559855554">
+Initializing Add Remove Page<br/>
+Initialization of Add Button<br/>
+Initialization of Add Button<br/>
+Initialization of Add Button<br/>
+Deleting all delete Button<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest@3921ce9d</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest.verifyPageLoadsUnder3Seconds()'><b>verifyPageLoadsUnder3Seconds</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest<br/>
+<a href="#Output-1512106524" onClick='toggleBox("Output-1512106524", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1512106524" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1512106524">
+Initializing PerformancePage<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest@3921ce9d</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest.verifyBasicAuth()'><b>verifyBasicAuth</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest<br>Parameters: admin, admin, true<br/>
+<a href="#Output-1918880035" onClick='toggleBox("Output-1918880035", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1918880035" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1918880035">
+Initializing Basic auth<br/>
+Navigating with Basic Auth credentials<br/>
+Validating success message<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@139d30b6</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest.verifyPageLoadsUnder3Seconds()'><b>verifyPageLoadsUnder3Seconds</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest<br/>
+<a href="#Output-1279960548" onClick='toggleBox("Output-1279960548", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1279960548" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1279960548">
+Initializing PerformancePage<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest@41ed6f60</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest.verifyBasicAuth()'><b>verifyBasicAuth</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest<br>Parameters: admin, wrong, false<br/>
+<a href="#Output-1403672709" onClick='toggleBox("Output-1403672709", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1403672709" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1403672709">
+Initializing Basic auth<br/>
+Navigating with Basic Auth credentials<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@139d30b6</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest.verifyBasicAuth()'><b>verifyBasicAuth</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest<br>Parameters: user, pass, false<br/>
+<a href="#Output-386750786" onClick='toggleBox("Output-386750786", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-386750786" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-386750786">
+Initializing Basic auth<br/>
+Navigating with Basic Auth credentials<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@139d30b6</td></tr>
+</table><p>
+</body>
+</html>

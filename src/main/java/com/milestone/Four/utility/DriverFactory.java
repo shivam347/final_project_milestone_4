@@ -1,7 +1,7 @@
-package utility;
+package com.milestone.four.utility;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import orangehrm.configreader.ConfigReader;
+
 
 import java.time.Duration;
 
@@ -11,6 +11,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Reporter;
 import org.testng.log4testng.Logger;
+
+import com.milestone.four.herokuapp.configreader.ConfigReader;
 
 public class DriverFactory {
     private static final Logger log= Logger.getLogger(DriverFactory.class);

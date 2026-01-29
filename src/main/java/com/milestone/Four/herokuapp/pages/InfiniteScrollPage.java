@@ -1,4 +1,4 @@
-package herokuapp.pages;
+package com.milestone.four.herokuapp.pages;
 
 
 import org.openqa.selenium.By;

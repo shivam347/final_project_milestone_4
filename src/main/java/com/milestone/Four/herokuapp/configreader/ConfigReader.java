@@ -1,4 +1,4 @@
-package herokuapp.configreader;
+package com.milestone.four.herokuapp.configreader;
 
 import java.io.InputStream;
 import java.util.Properties;

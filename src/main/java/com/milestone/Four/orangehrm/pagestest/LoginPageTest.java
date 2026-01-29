@@ -1,12 +1,16 @@
-package orangehrm.pagestest;
+package com.milestone.four.orangehrm.pagestest;
 
 import org.testng.annotations.Test;
 
+import com.milestone.four.orangehrm.basetest.BaseTest;
+import com.milestone.four.orangehrm.dataprovider.LoginDataProvider;
+import com.milestone.four.orangehrm.pages.LoginPage;
+import com.milestone.four.utility.DriverFactory;
 
-import orangehrm.basetest.BaseTest;
-import orangehrm.pages.LoginPage;
-import orangehrm.dataprovider.LoginDataProvider;
-import utility.DriverFactory;
+// import orangehrm.basetest.BaseTest;
+// import orangehrm.pages.LoginPage;
+// import orangehrm.dataprovider.LoginDataProvider;
+// import utility.DriverFactory;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Reporter;

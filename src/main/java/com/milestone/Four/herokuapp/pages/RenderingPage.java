@@ -1,10 +1,10 @@
-package herokuapp.pages;
+package com.milestone.four.herokuapp.pages;
 
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import utility.WaitUtil;
+import com.milestone.four.utility.WaitUtil;
 
 public class RenderingPage {
 

@@ -1,4 +1,4 @@
-package com.milestone.Four;
+package com.milestone.four;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

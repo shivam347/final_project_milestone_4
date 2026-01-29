@@ -1,4 +1,4 @@
-package herokuapp.pages;
+package com.milestone.four.herokuapp.pages;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -9,8 +9,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 
-import utility.DriverFactory;
-import utility.WaitUtil;
+import com.milestone.four.utility.DriverFactory;
+import com.milestone.four.utility.WaitUtil;
+
+// import utility.DriverFactory;
+// import utility.WaitUtil;
 
 
 public class DynamicControlPage {

@@ -1,4 +1,4 @@
-package orangehrm.dataprovider;
+package com.milestone.four.orangehrm.dataprovider;
 
 import org.testng.Reporter;
 import org.testng.annotations.DataProvider;

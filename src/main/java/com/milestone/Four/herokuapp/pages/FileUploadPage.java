@@ -1,4 +1,4 @@
-package herokuapp.pages;
+package com.milestone.four.herokuapp.pages;
 
 
 import org.openqa.selenium.WebDriver;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 import org.testng.log4testng.Logger;
 
-import utility.WaitUtil;
+import com.milestone.four.utility.WaitUtil;
 
 public class FileUploadPage {
 

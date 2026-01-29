@@ -1,0 +1,487 @@
+<html>
+<head>
+<title>TestNG:  heroku Firefox test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>heroku Firefox test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jan 29 13:17:05 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>300 seconds (300432 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest.verifyEntryAdPopup()'><b>verifyEntryAdPopup</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because the return value of &quot;com.milestone.four.utility.DriverFactory.getDriver()&quot; is null
+	at com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest.verifyEntryAdPopup(FT11_EntryAdTest.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.milestone.four.runner.TestNGSuiteRunner.runSuite(TestNGSuiteRunner.java:25)
+	at com.milestone.four.service.TestExecutionService.executeSuite(TestExecutionService.java:28)
+	at com.milestone.four.controller.UITestController.runSuite(UITestController.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div><a href='#' onClick='toggleBox("stack-trace150834129", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace150834129'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because the return value of &quot;com.milestone.four.utility.DriverFactory.getDriver()&quot; is null
+	at com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest.verifyEntryAdPopup(FT11_EntryAdTest.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.milestone.four.runner.TestNGSuiteRunner.runSuite(TestNGSuiteRunner.java:25)
+	at com.milestone.four.service.TestExecutionService.executeSuite(TestExecutionService.java:28)
+	at com.milestone.four.controller.UITestController.runSuite(UITestController.java:24)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>0</td>
+<td>com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest@974064e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest.verifyLoginCredentials()'><b>verifyLoginCredentials</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest<br>Parameters: tomsmith, wrongPass, false<br/>
+<a href="#Output-1968713656" onClick='toggleBox("Output-1968713656", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1968713656" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1968713656">
+Initialization of LoginForm Page Authentication<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@679b3f5e</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest.verifyLoginCredentials()'><b>verifyLoginCredentials</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest<br>Parameters: tomsmith, SuperSecretPassword!, true<br/>
+<a href="#Output-909452276" onClick='toggleBox("Output-909452276", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-909452276" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-909452276">
+Initialization of LoginForm Page Authentication<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@679b3f5e</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest.verifyLoginCredentials()'><b>verifyLoginCredentials</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest<br>Parameters: , , false<br/>
+<a href="#Output-1240358063" onClick='toggleBox("Output-1240358063", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1240358063" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1240358063">
+Initialization of LoginForm Page Authentication<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@679b3f5e</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest.verifyInfiniteScrollLoadsMoreContent()'><b>verifyInfiniteScrollLoadsMoreContent</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest<br/>
+<a href="#Output-1496594934" onClick='toggleBox("Output-1496594934", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1496594934" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1496594934">
+Initializing InfiniteScrollPage<br/>
+Scrolling down the page<br/>
+Scrolling down the page<br/>
+Scrolling down the page<br/>
+Scrolling down the page<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest@15f92d69</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest.verifyPageLoadsUnder3Seconds()'><b>verifyPageLoadsUnder3Seconds</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest<br/>
+<a href="#Output-83647167" onClick='toggleBox("Output-83647167", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-83647167" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-83647167">
+Initializing PerformancePage<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest@50b04ff0</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest.verifyPageLoadsUnder3Seconds()'><b>verifyPageLoadsUnder3Seconds</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest<br/>
+<a href="#Output-719463847" onClick='toggleBox("Output-719463847", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-719463847" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-719463847">
+Initializing PerformancePage<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest@7b9b26ad</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest.verifyStatusCodeMessage()'><b>verifyStatusCodeMessage</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest<br>Parameters: 404<br/>
+<a href="#Output-707747626" onClick='toggleBox("Output-707747626", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-707747626" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-707747626">
+Initializing StatusCodesPage<br/>
+Clicking Status Code: 404<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@2ba69147</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT18_HoversTest.verifyHoverUserProfile()'><b>verifyHoverUserProfile</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT18_HoversTest<br/>
+<a href="#Output-2026762757" onClick='toggleBox("Output-2026762757", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2026762757" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2026762757">
+Initializing HoversPage<br/>
+Hovering over user index: 0<br/>
+Hovering over user index: 1<br/>
+Hovering over user index: 2<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.milestone.four.herokuapp.pagestest.FT18_HoversTest@170adbd3</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT15_FloatingMenuTest.verifyFloatingMenuStaysVisible()'><b>verifyFloatingMenuStaysVisible</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT15_FloatingMenuTest<br/>
+<a href="#Output-740807374" onClick='toggleBox("Output-740807374", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-740807374" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-740807374">
+Initializing FloatingMenuPage<br/>
+Scrolling page by: 800<br/>
+Checking if floating menu is displayed<br/>
+Scrolling page by: -800<br/>
+Checking if floating menu is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.milestone.four.herokuapp.pagestest.FT15_FloatingMenuTest@79df75de</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest.verifyLoginCredentials()'><b>verifyLoginCredentials</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest<br>Parameters: wrongUser, SuperSecretPassword!, false<br/>
+<a href="#Output-1817704953" onClick='toggleBox("Output-1817704953", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1817704953" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1817704953">
+Initialization of LoginForm Page Authentication<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@679b3f5e</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest.verifyStatusCodeMessage()'><b>verifyStatusCodeMessage</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest<br>Parameters: 301<br/>
+<a href="#Output-1356259174" onClick='toggleBox("Output-1356259174", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1356259174" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1356259174">
+Initializing StatusCodesPage<br/>
+Clicking Status Code: 301<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@2ba69147</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT12_TyposTest.verifyNoTypoInParagraph()'><b>verifyNoTypoInParagraph</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT12_TyposTest<br/>
+<a href="#Output-1823905255" onClick='toggleBox("Output-1823905255", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1823905255" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1823905255">
+Initializing TyposPage<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.milestone.four.herokuapp.pagestest.FT12_TyposTest@323bf24</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest.verifyStatusCodeMessage()'><b>verifyStatusCodeMessage</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest<br>Parameters: 200<br/>
+<a href="#Output-108111620" onClick='toggleBox("Output-108111620", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-108111620" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-108111620">
+Initializing StatusCodesPage<br/>
+Clicking Status Code: 200<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@2ba69147</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest.verifyFileDownloadLink()'><b>verifyFileDownloadLink</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest<br/>
+<a href="#Output-955069466" onClick='toggleBox("Output-955069466", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-955069466" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-955069466">
+Initializing FileDownloadPage<br/>
+Download link: https://the-internet.herokuapp.com/download/some-file.txt<br/>
+Clicking file download link<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest@50b04ff0</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest.verifySliderMovesUsingActions()'><b>verifySliderMovesUsingActions</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest<br/>
+<a href="#Output-405713207" onClick='toggleBox("Output-405713207", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-405713207" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-405713207">
+Initializing HorizontalSliderPage<br/>
+Moving slider to value (via Actions): 5<br/>
+Moved slider using Actions successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest@4517c34e</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest.verifyStatusCodeMessage()'><b>verifyStatusCodeMessage</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest<br>Parameters: 500<br/>
+<a href="#Output-676045010" onClick='toggleBox("Output-676045010", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-676045010" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-676045010">
+Initializing StatusCodesPage<br/>
+Clicking Status Code: 500<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@2ba69147</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest.verifyFileUpload()'><b>verifyFileUpload</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest<br/>
+<a href="#Output-135084855" onClick='toggleBox("Output-135084855", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-135084855" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-135084855">
+Initializing FileUploadPage<br/>
+Uploading file: C:\Projects\Sample.txt.txt<br/>
+Clicking Upload button<br/>
+Uploaded file name: Sample.txt.txt<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest@7b9b26ad</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest.verifyPageLoadsUnder3Seconds()'><b>verifyPageLoadsUnder3Seconds</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest<br/>
+<a href="#Output-798207816" onClick='toggleBox("Output-798207816", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-798207816" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-798207816">
+Initializing PerformancePage<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@2ba69147</td></tr>
+<tr>
+<td title='com.milestone.four.herokuapp.pagestest.FT18_HoversTest.verifyPageLoadsUnder3Seconds()'><b>verifyPageLoadsUnder3Seconds</b><br>Test class: com.milestone.four.herokuapp.pagestest.FT18_HoversTest<br/>
+<a href="#Output-1228196490" onClick='toggleBox("Output-1228196490", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1228196490" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1228196490">
+Initializing PerformancePage<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.milestone.four.herokuapp.pagestest.FT18_HoversTest@170adbd3</td></tr>
+</table><p>
+</body>
+</html>

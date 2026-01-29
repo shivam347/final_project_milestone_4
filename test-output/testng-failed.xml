@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [herokuapp Suite]" verbose="2">
+  <test thread-count="5" name="heroku Firefox test(failed)" verbose="2">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="verifyEntryAdPopup"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest -->
+    </classes>
+  </test> <!-- heroku Firefox test(failed) -->
+</suite> <!-- Failed suite [herokuapp Suite] -->

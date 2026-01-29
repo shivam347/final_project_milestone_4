@@ -1,9 +1,9 @@
-package herokuapp.pagestest;
+package com.milestone.four.herokuapp.pagestest;
 
 
-import herokuapp.basetest.BaseTest;
-import utility.DriverFactory;
-import herokuapp.pages.DynamicLoadingPage;
+import com.milestone.four.herokuapp.basetest.BaseTest;
+import com.milestone.four.utility.DriverFactory;
+import com.milestone.four.herokuapp.pages.DynamicLoadingPage;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;

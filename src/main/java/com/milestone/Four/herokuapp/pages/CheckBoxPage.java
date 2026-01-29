@@ -1,4 +1,4 @@
-package herokuapp.pages;
+package com.milestone.four.herokuapp.pages;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 
-import utility.WaitUtil;
+import com.milestone.four.utility.WaitUtil;
 
 
 

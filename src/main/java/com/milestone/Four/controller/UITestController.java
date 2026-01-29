@@ -15,13 +15,16 @@ public class UITestController {
     private TestExecutionService service;
 
     @GetMapping("/dashboard")
-    public String dashboard() {
+    public String dashboard(Model model) {
+        // Initialize message as empty so Thymeleaf has a variable to bind to
+        model.addAttribute("message", ""); 
         return "dashboard";
     }
 
     @PostMapping("/run")
-    public String runSuite(@RequestParam String suite, Model model) {
-        model.addAttribute("message", service.executeSuite(suite));
-        return "dashboard";
+    public String runSuite(@RequestParam(defaultValue = "testng.xml") String suite, Model model) {
+        String result = service.executeSuite(suite);
+        model.addAttribute("message", result);
+        return "dashboard"; 
     }
 }

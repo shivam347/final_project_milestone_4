@@ -1,4 +1,4 @@
-package orangehrm.configreader;
+package com.milestone.four.orangehrm.configreader;
 
 import java.io.InputStream;
 import java.util.Properties;

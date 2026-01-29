@@ -1,8 +1,8 @@
-package herokuapp.pagestest;
+package com.milestone.four.herokuapp.pagestest;
 
-import herokuapp.basetest.BaseTest;
-import utility.DriverFactory;
-import herokuapp.pages.InfiniteScrollPage;
+import com.milestone.four.herokuapp.basetest.BaseTest;
+import com.milestone.four.utility.DriverFactory;
+import com.milestone.four.herokuapp.pages.InfiniteScrollPage;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;

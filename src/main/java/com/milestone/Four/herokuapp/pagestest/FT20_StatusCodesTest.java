@@ -1,11 +1,13 @@
-package herokuapp.pagestest;
+package com.milestone.four.herokuapp.pagestest;
 
 
-import herokuapp.basetest.BaseTest;
-import herokuapp.dataproviderheroku.DataProviderHeroku;
-import utility.DriverFactory;
-import herokuapp.pages.PerformancePage;
-import herokuapp.pages.StatusCodesPage;
+import com.milestone.four.herokuapp.basetest.BaseTest;
+import com.milestone.four.herokuapp.dataproviderheroku.DataProviderHeroku;
+import com.milestone.four.utility.DriverFactory;
+import com.milestone.four.herokuapp.pages.PerformancePage;
+import com.milestone.four.herokuapp.pages.StatusCodesPage;
+
+// import herokuapp.pages.StatusCodesPage;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;

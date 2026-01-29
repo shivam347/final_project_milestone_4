@@ -1,4 +1,4 @@
-package utility;
+package com.milestone.four.utility;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;

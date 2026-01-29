@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Automation Test Dashboard</title>
+
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 80px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 25px;
+        }
+
+        label {
+            font-weight: 600;
+            color: #34495e;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #1976d2;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: bold;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #125aa3;
+        }
+
+        .message {
+            margin-top: 20px;
+            text-align: center;
+            font-weight: 600;
+            color: #2e7d32;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Automated Regression Test Dashboard</h2>
+
+    <form method="post" action="/ui/run">
+        <label for="suite">TestNG Suite Name</label>
+        <input type="text" id="suite" name="suite" value="testng.xml"/>
+
+        <button type="submit">Run Test Suite</button>
+    </form>
+
+    <p class="message" th:text="${message}"></p>
+
+    <div class="footer">
+        Spring Boot • Selenium • TestNG
+    </div>
+</div>
+
+</body>
+</html>

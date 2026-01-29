@@ -1,4 +1,4 @@
-package herokuapp.basetest;
+package com.milestone.four.herokuapp.basetest;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
@@ -8,8 +8,11 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
-import herokuapp.configreader.ConfigReader;
-import utility.DriverFactory;
+import com.milestone.four.herokuapp.configreader.ConfigReader;
+import com.milestone.four.utility.DriverFactory;
+
+
+
 
 public class BaseTest {
 	protected WebDriver driver;

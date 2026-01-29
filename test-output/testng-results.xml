@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[Initializing ABtesting]]>
+    </line>
+    <line>
+      <![CDATA[fetching heading text for abtesting]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[Initializing PerformancePage]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[Initializing Add Remove Page]]>
+    </line>
+    <line>
+      <![CDATA[Initialization of Add Button]]>
+    </line>
+    <line>
+      <![CDATA[Initialization of Add Button]]>
+    </line>
+    <line>
+      <![CDATA[Initialization of Add Button]]>
+    </line>
+    <line>
+      <![CDATA[Deleting all delete Button]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[Initializing PerformancePage]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Start Inserting Values for BasicAuth]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[Initializing Basic auth]]>
+    </line>
+    <line>
+      <![CDATA[Navigating with Basic Auth credentials]]>
+    </line>
+    <line>
+      <![CDATA[Validating success message]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[Initializing Basic auth]]>
+    </line>
+    <line>
+      <![CDATA[Navigating with Basic Auth credentials]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[Initializing Basic auth]]>
+    </line>
+    <line>
+      <![CDATA[Navigating with Basic Auth credentials]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[Initializing Basic auth]]>
+    </line>
+    <line>
+      <![CDATA[Navigating with Basic Auth credentials]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[Initializing PerformancePage]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Data Provider value inserted]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage contructor start to initialise Driver]]>
+    </line>
+    <line>
+      <![CDATA[Login started]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage contructor start to initialise Driver]]>
+    </line>
+    <line>
+      <![CDATA[Login started]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage contructor start to initialise Driver]]>
+    </line>
+    <line>
+      <![CDATA[Login started]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Data Provider value inserted]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[firefox]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage contructor start to initialise Driver]]>
+    </line>
+    <line>
+      <![CDATA[Login started]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[firefox]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage contructor start to initialise Driver]]>
+    </line>
+    <line>
+      <![CDATA[Login started]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[firefox]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage contructor start to initialise Driver]]>
+    </line>
+    <line>
+      <![CDATA[Login started]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-01-29T14:05:11 IST" name="OrangeHRM Suite" finished-at="2026-01-29T14:07:10 IST" duration-ms="119397">
+    <groups>
+    </groups>
+    <test started-at="2026-01-29T14:05:11 IST" name="Chrome Test" finished-at="2026-01-29T14:06:11 IST" duration-ms="59919">
+      <class name="com.milestone.four.orangehrm.pagestest.LoginPageTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@35760c64]" started-at="2026-01-29T14:05:11 IST" name="beforeClass" finished-at="2026-01-29T14:05:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@35760c64]" started-at="2026-01-29T14:05:11 IST" name="beforeMethod" finished-at="2026-01-29T14:05:18 IST" duration-ms="7450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is opening]]>
+            </line>
+            <line>
+              <![CDATA[login test started]]>
+            </line>
+            <line>
+              <![CDATA[chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@35760c64]" started-at="2026-01-29T14:05:18 IST" name="loginTest" data-provider="loginData" finished-at="2026-01-29T14:05:25 IST" duration-ms="6827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[login test started]]>
+            </line>
+            <line>
+              <![CDATA[LoginPage contructor start to initialise Driver]]>
+            </line>
+            <line>
+              <![CDATA[Login started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@35760c64]" started-at="2026-01-29T14:05:25 IST" name="afterMethod" finished-at="2026-01-29T14:05:25 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is closing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@35760c64]" started-at="2026-01-29T14:05:25 IST" name="beforeMethod" finished-at="2026-01-29T14:05:34 IST" duration-ms="9267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is opening]]>
+            </line>
+            <line>
+              <![CDATA[login test started]]>
+            </line>
+            <line>
+              <![CDATA[chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@35760c64]" started-at="2026-01-29T14:05:34 IST" name="loginTest" data-provider="loginData" finished-at="2026-01-29T14:05:40 IST" duration-ms="5931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[login test started]]>
+            </line>
+            <line>
+              <![CDATA[LoginPage contructor start to initialise Driver]]>
+            </line>
+            <line>
+              <![CDATA[Login started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@35760c64]" started-at="2026-01-29T14:05:40 IST" name="afterMethod" finished-at="2026-01-29T14:05:40 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is closing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@35760c64]" started-at="2026-01-29T14:05:40 IST" name="beforeMethod" finished-at="2026-01-29T14:06:04 IST" duration-ms="23731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is opening]]>
+            </line>
+            <line>
+              <![CDATA[login test started]]>
+            </line>
+            <line>
+              <![CDATA[chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@35760c64]" started-at="2026-01-29T14:06:04 IST" name="loginTest" data-provider="loginData" finished-at="2026-01-29T14:06:10 IST" duration-ms="6202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[login test started]]>
+            </line>
+            <line>
+              <![CDATA[LoginPage contructor start to initialise Driver]]>
+            </line>
+            <line>
+              <![CDATA[Login started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@35760c64]" started-at="2026-01-29T14:06:10 IST" name="afterMethod" finished-at="2026-01-29T14:06:11 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is closing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@35760c64]" started-at="2026-01-29T14:06:11 IST" name="afterClass" finished-at="2026-01-29T14:06:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.milestone.four.orangehrm.pagestest.LoginPageTest -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2026-01-29T14:06:11 IST" name="firefox-test" finished-at="2026-01-29T14:07:10 IST" duration-ms="59474">
+      <class name="com.milestone.four.orangehrm.pagestest.LoginPageTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@995794d]" started-at="2026-01-29T14:06:11 IST" name="beforeClass" finished-at="2026-01-29T14:06:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@995794d]" started-at="2026-01-29T14:06:11 IST" name="beforeMethod" finished-at="2026-01-29T14:06:20 IST" duration-ms="9420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is opening]]>
+            </line>
+            <line>
+              <![CDATA[login test started]]>
+            </line>
+            <line>
+              <![CDATA[firefox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@995794d]" started-at="2026-01-29T14:06:20 IST" name="loginTest" data-provider="loginData" finished-at="2026-01-29T14:06:28 IST" duration-ms="8289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[login test started]]>
+            </line>
+            <line>
+              <![CDATA[LoginPage contructor start to initialise Driver]]>
+            </line>
+            <line>
+              <![CDATA[Login started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@995794d]" started-at="2026-01-29T14:06:28 IST" name="afterMethod" finished-at="2026-01-29T14:06:29 IST" duration-ms="908" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is closing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@995794d]" started-at="2026-01-29T14:06:29 IST" name="beforeMethod" finished-at="2026-01-29T14:06:42 IST" duration-ms="12839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is opening]]>
+            </line>
+            <line>
+              <![CDATA[login test started]]>
+            </line>
+            <line>
+              <![CDATA[firefox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@995794d]" started-at="2026-01-29T14:06:42 IST" name="loginTest" data-provider="loginData" finished-at="2026-01-29T14:06:50 IST" duration-ms="8299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[login test started]]>
+            </line>
+            <line>
+              <![CDATA[LoginPage contructor start to initialise Driver]]>
+            </line>
+            <line>
+              <![CDATA[Login started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@995794d]" started-at="2026-01-29T14:06:50 IST" name="afterMethod" finished-at="2026-01-29T14:06:51 IST" duration-ms="880" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is closing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@995794d]" started-at="2026-01-29T14:06:51 IST" name="beforeMethod" finished-at="2026-01-29T14:07:01 IST" duration-ms="9611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is opening]]>
+            </line>
+            <line>
+              <![CDATA[login test started]]>
+            </line>
+            <line>
+              <![CDATA[firefox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@995794d]" started-at="2026-01-29T14:07:01 IST" name="loginTest" data-provider="loginData" finished-at="2026-01-29T14:07:09 IST" duration-ms="8328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[login test started]]>
+            </line>
+            <line>
+              <![CDATA[LoginPage contructor start to initialise Driver]]>
+            </line>
+            <line>
+              <![CDATA[Login started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@995794d]" started-at="2026-01-29T14:07:09 IST" name="afterMethod" finished-at="2026-01-29T14:07:10 IST" duration-ms="896" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is closing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.orangehrm.pagestest.LoginPageTest@995794d]" started-at="2026-01-29T14:07:10 IST" name="afterClass" finished-at="2026-01-29T14:07:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.milestone.four.orangehrm.pagestest.LoginPageTest -->
+    </test> <!-- firefox-test -->
+  </suite> <!-- OrangeHRM Suite -->
+</testng-results>

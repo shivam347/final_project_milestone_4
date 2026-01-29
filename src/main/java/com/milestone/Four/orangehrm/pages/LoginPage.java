@@ -1,4 +1,4 @@
-package orangehrm.pages;
+package com.milestone.four.orangehrm.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.Reporter;
 import org.testng.log4testng.Logger;
 
-import utility.WaitUtil;
+import com.milestone.four.utility.WaitUtil;
 
 import org.openqa.selenium.support.PageFactory;
 

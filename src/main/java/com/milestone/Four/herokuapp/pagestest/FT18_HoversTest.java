@@ -1,10 +1,11 @@
-package herokuapp.pagestest;
+package com.milestone.four.herokuapp.pagestest;
 
 
-import herokuapp.basetest.BaseTest;
-import utility.DriverFactory;
-import herokuapp.pages.HoversPage;
-import herokuapp.pages.PerformancePage;
+import com.milestone.four.herokuapp.basetest.BaseTest;
+import com.milestone.four.utility.DriverFactory;
+import com.milestone.four.herokuapp.pages.HoversPage;
+// import herokuapp.pages.PerformancePage;
+import com.milestone.four.herokuapp.pages.PerformancePage;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
