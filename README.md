@@ -30,37 +30,7 @@ The Automation Test Execution framework is a Java-based application developed to
 
 ## 📁 Project Folder Structure
 
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/milestone/four/
-│   │   │                      ├── controller/
-│   │   │                      ├── herokuapp/
-│   │   │                      ├── listener/
-│   │   │                      ├── orangehrm/
-|   |   |                      ├── runner/
-│   │   │                      ├── service/
-│   │   │                      ├── utility/
-│   │   │                      └── AutomationApplication.java
-│   │   |         
-│   │   │
-│   │   └── resources/
-│   │       ├── templates/
-│   │       │   ├── dashboard.html
-│   │       │   
-│   │       ├── static/
-|   |       |     ├── style.css
-│   │       └── application.properties
-|   |            └── config.properties
-|   |            └── testng.xml
-|   |            └── testng1.xml
-│   │
-│   └── test/
-│       └── java/
-│           └── com/milestone/tests/
-│
-├── pom.xml
-└── README.md
+![alt text](image-1.png)
 
 ## 🗂️ Folder Descriptions
 - **controller** → Handles web requests and UI navigation
