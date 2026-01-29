@@ -94,7 +94,7 @@ The Automation Test Execution framework is a Java-based application developed to
 1. **Clone the repository**
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/shivam347/final_project_milestone_4
 cd automation-test-execution-framework
 ```
 
@@ -123,5 +123,7 @@ http://localhost:8082/ui/dashboard
 ## Screenshot
 
 ![alt text](image.png)
+
+
 
 
