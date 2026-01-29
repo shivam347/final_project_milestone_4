@@ -7,7 +7,6 @@ import org.testng.annotations.Test;
 import com.milestone.four.herokuapp.basetest.BaseTest;
 import com.milestone.four.utility.DriverFactory;
 import com.milestone.four.herokuapp.pages.AddRemovePage;
-import com.milestone.four.herokuapp.pages.AddRemovePage;
 import com.milestone.four.herokuapp.pages.PerformancePage;
 
 public class FT02_AddRemoveTest extends BaseTest {

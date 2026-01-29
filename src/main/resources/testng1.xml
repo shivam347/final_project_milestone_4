@@ -1,8 +1,8 @@
 <suite name="herokuapp Suite">
 
-    <!-- <listeners>
-        <listener class-name="herokuapp.listener.ScreenshotListener"/>
-    </listeners> -->
+    <listeners>
+        <listener class-name="com.milestone.four.listener.ScreenshotListener"/>
+    </listeners>
 
 
     <test name="heroku chrome test">
