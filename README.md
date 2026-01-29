@@ -124,6 +124,10 @@ http://localhost:8082/ui/dashboard
 
 ![alt text](image.png)
 
+---
+
+## 🙏 Thank You
+Thank you for reviewing this project — your feedback and contributions are welcome!
 
 
 
