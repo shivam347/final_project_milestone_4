@@ -16,24 +16,32 @@ public class EmailService {
     @Autowired
     private JavaMailSender mailSender;
 
-    @Value("${mail.to}")
-    private String receivermail;
+    // @Value("${mail.to}")
+    // private String receivermail;
 
-    public void sendReport(File file)
+    public void sendReport(String email, File file)
             throws MessagingException {
 
-        MimeMessage message = mailSender.createMimeMessage();
+        try {
 
-        MimeMessageHelper helper =
-            new MimeMessageHelper(message, true);
+            MimeMessage message = mailSender.createMimeMessage();
 
-        helper.setTo(receivermail);
-        helper.setSubject("Automation Test Report");
-        helper.setText("Please find attached test report.");
+            MimeMessageHelper helper = new MimeMessageHelper(message, true);
 
-        helper.addAttachment(file.getName(), file);
+            helper.setTo(email);
+            helper.setSubject("Automation Test Report");
+            helper.setText("Please find attached test report.");
 
-        mailSender.send(message);
+            helper.addAttachment(file.getName(), file);
+
+            mailSender.send(message);
+
+        } catch (Exception e) {
+
+            e.printStackTrace();
+
+        }
+
     }
-    
+
 }

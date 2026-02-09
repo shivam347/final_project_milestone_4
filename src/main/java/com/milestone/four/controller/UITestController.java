@@ -1,5 +1,6 @@
 package com.milestone.four.controller;
 
+import com.milestone.four.model.User;
 import com.milestone.four.service.EmailService;
 import com.milestone.four.service.TestExecutionService;
 
@@ -31,7 +32,6 @@ public class UITestController {
     @Autowired
     private EmailService emailService;
 
-
     // ================= DASHBOARD =================
 
     @GetMapping("/dashboard")
@@ -45,15 +45,14 @@ public class UITestController {
         return "dashboard";
     }
 
-
     // ================= RUN TEST =================
 
     @PostMapping("/run")
     public String runSuite(@RequestParam String suite,
-                           Model model,
-                           HttpSession session) {
+            Model model,
+            HttpSession session) {
 
-        //  Check Login
+        // Check Login
         if (session.getAttribute("loggedUser") == null) {
             return "redirect:/login";
         }
@@ -64,14 +63,13 @@ public class UITestController {
         return "dashboard";
     }
 
-
     // ================= DOWNLOAD REPORT =================
 
     @GetMapping("/download-report")
     public ResponseEntity<Resource> downloadReport(
             HttpSession session) throws IOException {
 
-        //  Check Login
+        // Check Login
         if (session.getAttribute("loggedUser") == null) {
             return ResponseEntity
                     .status(401)
@@ -86,8 +84,7 @@ public class UITestController {
 
         Path path = file.toPath();
 
-        Resource resource =
-                new UrlResource(path.toUri());
+        Resource resource = new UrlResource(path.toUri());
 
         return ResponseEntity.ok()
                 .header(HttpHeaders.CONTENT_DISPOSITION,
@@ -96,28 +93,30 @@ public class UITestController {
                 .body(resource);
     }
 
-
     // ================= SEND MAIL =================
 
     @PostMapping("/send-report")
     @ResponseBody
     public String sendReport(HttpSession session) {
 
-        //  Check Login
-        if (session.getAttribute("loggedUser") == null) {
-            return "Unauthorized! Please login.";
+        // Check Login
+        User user = (User) session.getAttribute("loggedUser");
+
+        if (user == null) {
+            return "redirect:/login";
         }
 
         try {
 
-            File file =
-                    new File("Final_Test_Report.xlsx");
+            File file = new File("Final_Test_Report.xlsx");
 
             if (!file.exists()) {
                 return "Report not found!";
             }
 
-            emailService.sendReport(file);
+            String useremail = user.getEmail();
+
+            emailService.sendReport(useremail, file);
 
             return "Report sent to mail successfully!";
 
