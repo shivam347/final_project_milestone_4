@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
+
 <head>
     <title>Automation Test Dashboard</title>
 
@@ -17,7 +18,7 @@
             background: #ffffff;
             padding: 30px;
             border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
 
         h2 {
@@ -53,6 +54,83 @@
             cursor: pointer;
         }
 
+        .report {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+        }
+
+        .download-btn {
+            width: 100%;
+            color: white;
+            background-color: #78e57e;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .email-btn {
+            width: 100%;
+            color: white;
+            background-color: #c38548;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .email-btn:hover {
+            background-color: #783c00;
+        }
+
+        .download-btn:hover {
+            background-color: #079433;
+        }
+
+        .report-btn {
+
+            width: 100%;
+            color: white;
+            background-color: #544ae4;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+           
+
+        }
+
+        .report-btn:hover {
+            background-color: #747404;
+            
+        }
+        .logout-btn{
+
+            width: 100%;
+            color: white;
+            background-color: #df415e;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+
+        }
+
+        .logout-btn:hover{
+            background-color: rgb(168, 5, 5);
+        }
+
+
+
         button:hover {
             background-color: #125aa3;
         }
@@ -71,26 +149,92 @@
             color: #7f8c8d;
         }
     </style>
+
+    <script>
+        function downloadReport() {
+            window.location.href = "/ui/download-report";
+        }
+
+        function sendReport() {
+
+            // Disable button (optional)
+            const btn = document.getElementById("sendBtn");
+            btn.disabled = true;
+            btn.innerText = "Sending...";
+
+            fetch("/ui/send-report", {
+                method: "POST"
+            })
+                .then(response => response.text())
+                .then(msg => {
+
+                    // Show message
+                    document.getElementById("msg").innerText = msg;
+
+                    // Re-enable button
+                    btn.disabled = false;
+                    btn.innerText = "Send Report to Mail";
+                })
+                .catch(err => {
+
+                    document.getElementById("msg").innerText =
+                        "Network error!";
+
+                    btn.disabled = false;
+                    btn.innerText = "Send Report to Mail";
+                });
+        }
+    </script>
 </head>
 
 <body>
 
-<div class="container">
-    <h2>Automated Regression Test Dashboard</h2>
+    <div class="container">
+        <h2>Automated Regression Test Dashboard</h2>
 
-    <form method="post" action="/ui/run">
-        <label for="suite">TestNG Suite Name</label>
-        <input type="text" id="suite" name="suite" value="testng.xml"/>
+        
 
-        <button type="submit">Run Test Suite</button>
-    </form>
+        <div class="report">
 
-    <p class="message" th:text="${message}"></p>
+            <form method="post" action="/ui/run">
+                <label for="suite">TestNG Suite Name</label>
+                <input type="text" id="suite" name="suite" value="testng.xml" />
 
-    <div class="footer">
-        Spring Boot • Selenium • TestNG
+                <button type="submit">Run Test Suite</button>
+
+
+
+                <button class="download-btn" type="button" onclick="downloadReport()">Download Report</button>
+
+                <button id="sendBtn" type="button" class="email-btn" onclick="sendReport()">
+                    Send Report to Mail
+                </button>
+
+
+            </form>
+
+            <a th:href="@{/reports/Extent.html}" target="_blank">
+                <button class="report-btn">
+                    Detailed Report
+                </button>
+            </a>
+
+            <!-- Logout button -->
+            <a  th:href="@{/login}" target="_blank">
+                <button class="logout-btn">logout</button>
+            </a>
+            
+
+        </div>
+
+        <!-- <p class="message" th:text="${message}"></p> -->
+        <p id="msg" class="message"></p>
+
+        <div class="footer">
+            Spring Boot • Selenium • TestNG
+        </div>
     </div>
-</div>
 
 </body>
+
 </html>

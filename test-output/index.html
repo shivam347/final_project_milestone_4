@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-herokuapp_Suite" class="navigator-link">
-              <span class="suite-name border-passed">herokuapp Suite</span>
+              <span class="suite-name border-failed">herokuapp Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,41 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">39 methods,   39 passed</span>
+                    <span class="method-stats">39 methods, 5 failed,   34 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-herokuapp_Suite" class="hide-methods failed suite-herokuapp_Suite"> (hide)</a> <!-- hide-methods failed suite-herokuapp_Suite -->
+                      <a href="#" panel-name="suite-herokuapp_Suite" class="show-methods failed suite-herokuapp_Suite"> (show)</a> <!-- show-methods failed suite-herokuapp_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-herokuapp_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest" class="method navigator-link" hash-for-method="verifyEntryAdPopup">verifyEntryAdPopup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest" class="method navigator-link" hash-for-method="verifyStatusCodeMessage(200)">verifyStatusCodeMessage(200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest" class="method navigator-link" hash-for-method="verifyStatusCodeMessage(301)">verifyStatusCodeMessage(301)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest" class="method navigator-link" hash-for-method="verifyStatusCodeMessage(500)">verifyStatusCodeMessage(500)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest" class="method navigator-link" hash-for-method="verifyStatusCodeMessage(404)">verifyStatusCodeMessage(404)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-herokuapp_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,7 +142,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest" class="method navigator-link" hash-for-method="verifyBasicAuth(wrong, admin, false)">verifyBasicAuth(wrong, admin, false)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest" class="method navigator-link" hash-for-method="verifyBasicAuth(user, pass, false)">verifyBasicAuth(user, pass, false)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -123,7 +157,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest" class="method navigator-link" hash-for-method="verifyBasicAuth(user, pass, false)">verifyBasicAuth(user, pass, false)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest" class="method navigator-link" hash-for-method="verifyBasicAuth(wrong, admin, false)">verifyBasicAuth(wrong, admin, false)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -163,11 +197,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest" class="method navigator-link" hash-for-method="verifyEntryAdPopup">verifyEntryAdPopup</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest" class="method navigator-link" hash-for-method="verifyFileDownloadLink">verifyFileDownloadLink</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -198,17 +227,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest" class="method navigator-link" hash-for-method="verifyLoginCredentials(tomsmith, SuperSecretPassword!, true)">verifyLoginCredentials(tomsmith, SuperSecretPassword!, true)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest" class="method navigator-link" hash-for-method="verifyLoginCredentials(, , false)">verifyLoginCredentials(, , false)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest" class="method navigator-link" hash-for-method="verifyLoginCredentials(wrongUser, SuperSecretPassword!, false)">verifyLoginCredentials(wrongUser, SuperSecretPassword!, false)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -218,12 +237,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT12_TyposTest" class="method navigator-link" hash-for-method="verifyNoTypoInParagraph">verifyNoTypoInParagraph</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest" class="method navigator-link" hash-for-method="verifyLoginCredentials(tomsmith, SuperSecretPassword!, true)">verifyLoginCredentials(tomsmith, SuperSecretPassword!, true)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest" class="method navigator-link" hash-for-method="verifyPageLoadsUnder3Seconds">verifyPageLoadsUnder3Seconds</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest" class="method navigator-link" hash-for-method="verifyLoginCredentials(wrongUser, SuperSecretPassword!, false)">verifyLoginCredentials(wrongUser, SuperSecretPassword!, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT12_TyposTest" class="method navigator-link" hash-for-method="verifyNoTypoInParagraph">verifyNoTypoInParagraph</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -233,12 +257,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest" class="method navigator-link" hash-for-method="verifyPageLoadsUnder3Seconds">verifyPageLoadsUnder3Seconds</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest" class="method navigator-link" hash-for-method="verifyPageLoadsUnder3Seconds">verifyPageLoadsUnder3Seconds</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest" class="method navigator-link" hash-for-method="verifyPageLoadsUnder3Seconds">verifyPageLoadsUnder3Seconds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest" class="method navigator-link" hash-for-method="verifyPageLoadsUnder3Seconds">verifyPageLoadsUnder3Seconds</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -253,17 +282,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest" class="method navigator-link" hash-for-method="verifyPageLoadsUnder3Seconds">verifyPageLoadsUnder3Seconds</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT18_HoversTest" class="method navigator-link" hash-for-method="verifyPageLoadsUnder3Seconds">verifyPageLoadsUnder3Seconds</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest" class="method navigator-link" hash-for-method="verifyPageLoadsUnder3Seconds">verifyPageLoadsUnder3Seconds</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -273,27 +292,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest" class="method navigator-link" hash-for-method="verifyPageLoadsUnder3Seconds">verifyPageLoadsUnder3Seconds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest" class="method navigator-link" hash-for-method="verifyPageLoadsUnder3Seconds">verifyPageLoadsUnder3Seconds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest" class="method navigator-link" hash-for-method="verifySliderMovesUsingActions">verifySliderMovesUsingActions</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest" class="method navigator-link" hash-for-method="verifyStatusCodeMessage(200)">verifyStatusCodeMessage(200)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest" class="method navigator-link" hash-for-method="verifyStatusCodeMessage(301)">verifyStatusCodeMessage(301)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest" class="method navigator-link" hash-for-method="verifyStatusCodeMessage(404)">verifyStatusCodeMessage(404)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-herokuapp_Suite" title="com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest" class="method navigator-link" hash-for-method="verifyStatusCodeMessage(500)">verifyStatusCodeMessage(500)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-herokuapp_Suite -->
@@ -308,91 +317,353 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-herokuapp_Suite" class="panel herokuapp_Suite">
-          <div class="suite-herokuapp_Suite-class-passed">
+          <div class="suite-herokuapp_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT09_DynamicControlTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyDynamicControls">
-                  </a> <!-- verifyDynamicControls -->
-                  <span class="method-name">verifyDynamicControls</span>
+                  <a name="verifyStatusCodeMessage(200)">
+                  </a> <!-- verifyStatusCodeMessage(200) -->
+                  <span class="method-name">verifyStatusCodeMessage</span>
+                  <span class="parameters">(200)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Status message does not contain expected code: 200 expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest.verifyStatusCodeMessage(FT20_StatusCodesTest.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.milestone.four.runner.TestNGSuiteRunner.runSuite(TestNGSuiteRunner.java:25)
+	at com.milestone.four.service.TestExecutionService.executeSuite(TestExecutionService.java:28)
+	at com.milestone.four.controller.UITestController.runSuite(UITestController.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStatusCodeMessage(301)">
+                  </a> <!-- verifyStatusCodeMessage(301) -->
+                  <span class="method-name">verifyStatusCodeMessage</span>
+                  <span class="parameters">(301)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Status message does not contain expected code: 301 expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest.verifyStatusCodeMessage(FT20_StatusCodesTest.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.milestone.four.runner.TestNGSuiteRunner.runSuite(TestNGSuiteRunner.java:25)
+	at com.milestone.four.service.TestExecutionService.executeSuite(TestExecutionService.java:28)
+	at com.milestone.four.controller.UITestController.runSuite(UITestController.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStatusCodeMessage(500)">
+                  </a> <!-- verifyStatusCodeMessage(500) -->
+                  <span class="method-name">verifyStatusCodeMessage</span>
+                  <span class="parameters">(500)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Status message does not contain expected code: 500 expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest.verifyStatusCodeMessage(FT20_StatusCodesTest.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.milestone.four.runner.TestNGSuiteRunner.runSuite(TestNGSuiteRunner.java:25)
+	at com.milestone.four.service.TestExecutionService.executeSuite(TestExecutionService.java:28)
+	at com.milestone.four.controller.UITestController.runSuite(UITestController.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStatusCodeMessage(404)">
+                  </a> <!-- verifyStatusCodeMessage(404) -->
+                  <span class="method-name">verifyStatusCodeMessage</span>
+                  <span class="parameters">(404)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Status message does not contain expected code: 404 expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest.verifyStatusCodeMessage(FT20_StatusCodesTest.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.milestone.four.runner.TestNGSuiteRunner.runSuite(TestNGSuiteRunner.java:25)
+	at com.milestone.four.service.TestExecutionService.executeSuite(TestExecutionService.java:28)
+	at com.milestone.four.controller.UITestController.runSuite(UITestController.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-herokuapp_Suite-class-passed -->
-          <div class="suite-herokuapp_Suite-class-passed">
+          </div> <!-- suite-herokuapp_Suite-class-failed -->
+          <div class="suite-herokuapp_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyInfiniteScrollLoadsMoreContent">
-                  </a> <!-- verifyInfiniteScrollLoadsMoreContent -->
-                  <span class="method-name">verifyInfiniteScrollLoadsMoreContent</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-herokuapp_Suite-class-passed -->
-          <div class="suite-herokuapp_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT06_ContextMenuTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyContextMenuAlert">
-                  </a> <!-- verifyContextMenuAlert -->
-                  <span class="method-name">verifyContextMenuAlert</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-herokuapp_Suite-class-passed -->
-          <div class="suite-herokuapp_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT10_DynamicLoadingTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyDynamicLoadingFlow">
-                  </a> <!-- verifyDynamicLoadingFlow -->
-                  <span class="method-name">verifyDynamicLoadingFlow</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-herokuapp_Suite-class-passed -->
-          <div class="suite-herokuapp_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCheckBoxes">
-                  </a> <!-- verifyCheckBoxes -->
-                  <span class="method-name">verifyCheckBoxes</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyPageLoadsUnder3Seconds">
-                  </a> <!-- verifyPageLoadsUnder3Seconds -->
-                  <span class="method-name">verifyPageLoadsUnder3Seconds</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-herokuapp_Suite-class-passed -->
-          <div class="suite-herokuapp_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -401,167 +672,97 @@
                   <a name="verifyEntryAdPopup">
                   </a> <!-- verifyEntryAdPopup -->
                   <span class="method-name">verifyEntryAdPopup</span>
+                  <div class="stack-trace">java.lang.AssertionError: Modal popup should be closed but is still visible! expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest.verifyEntryAdPopup(FT11_EntryAdTest.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.milestone.four.runner.TestNGSuiteRunner.runSuite(TestNGSuiteRunner.java:25)
+	at com.milestone.four.service.TestExecutionService.executeSuite(TestExecutionService.java:28)
+	at com.milestone.four.controller.UITestController.runSuite(UITestController.java:62)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-herokuapp_Suite-class-passed -->
+          </div> <!-- suite-herokuapp_Suite-class-failed -->
           <div class="suite-herokuapp_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest</span>
+              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT15_FloatingMenuTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLoginCredentials(tomsmith, SuperSecretPassword!, true)">
-                  </a> <!-- verifyLoginCredentials(tomsmith, SuperSecretPassword!, true) -->
-                  <span class="method-name">verifyLoginCredentials</span>
-                  <span class="parameters">(tomsmith,SuperSecretPassword!,true)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLoginCredentials(, , false)">
-                  </a> <!-- verifyLoginCredentials(, , false) -->
-                  <span class="method-name">verifyLoginCredentials</span>
-                  <span class="parameters">(,,false)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLoginCredentials(wrongUser, SuperSecretPassword!, false)">
-                  </a> <!-- verifyLoginCredentials(wrongUser, SuperSecretPassword!, false) -->
-                  <span class="method-name">verifyLoginCredentials</span>
-                  <span class="parameters">(wrongUser,SuperSecretPassword!,false)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLoginCredentials(tomsmith, wrongPass, false)">
-                  </a> <!-- verifyLoginCredentials(tomsmith, wrongPass, false) -->
-                  <span class="method-name">verifyLoginCredentials</span>
-                  <span class="parameters">(tomsmith,wrongPass,false)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-herokuapp_Suite-class-passed -->
-          <div class="suite-herokuapp_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT07_DragDropTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyDragAndDrop">
-                  </a> <!-- verifyDragAndDrop -->
-                  <span class="method-name">verifyDragAndDrop</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-herokuapp_Suite-class-passed -->
-          <div class="suite-herokuapp_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifySliderMovesUsingActions">
-                  </a> <!-- verifySliderMovesUsingActions -->
-                  <span class="method-name">verifySliderMovesUsingActions</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-herokuapp_Suite-class-passed -->
-          <div class="suite-herokuapp_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT18_HoversTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyHoverUserProfile">
-                  </a> <!-- verifyHoverUserProfile -->
-                  <span class="method-name">verifyHoverUserProfile</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyPageLoadsUnder3Seconds">
-                  </a> <!-- verifyPageLoadsUnder3Seconds -->
-                  <span class="method-name">verifyPageLoadsUnder3Seconds</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-herokuapp_Suite-class-passed -->
-          <div class="suite-herokuapp_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyBasicAuth(wrong, admin, false)">
-                  </a> <!-- verifyBasicAuth(wrong, admin, false) -->
-                  <span class="method-name">verifyBasicAuth</span>
-                  <span class="parameters">(wrong,admin,false)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyBasicAuth(admin, admin, true)">
-                  </a> <!-- verifyBasicAuth(admin, admin, true) -->
-                  <span class="method-name">verifyBasicAuth</span>
-                  <span class="parameters">(admin,admin,true)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyBasicAuth(admin, wrong, false)">
-                  </a> <!-- verifyBasicAuth(admin, wrong, false) -->
-                  <span class="method-name">verifyBasicAuth</span>
-                  <span class="parameters">(admin,wrong,false)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyBasicAuth(user, pass, false)">
-                  </a> <!-- verifyBasicAuth(user, pass, false) -->
-                  <span class="method-name">verifyBasicAuth</span>
-                  <span class="parameters">(user,pass,false)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyPageLoadsUnder3Seconds">
-                  </a> <!-- verifyPageLoadsUnder3Seconds -->
-                  <span class="method-name">verifyPageLoadsUnder3Seconds</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-herokuapp_Suite-class-passed -->
-          <div class="suite-herokuapp_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT08_DropDownTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyDropDown">
-                  </a> <!-- verifyDropDown -->
-                  <span class="method-name">verifyDropDown</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyPageLoadsUnder3Seconds">
-                  </a> <!-- verifyPageLoadsUnder3Seconds -->
-                  <span class="method-name">verifyPageLoadsUnder3Seconds</span>
+                  <a name="verifyFloatingMenuStaysVisible">
+                  </a> <!-- verifyFloatingMenuStaysVisible -->
+                  <span class="method-name">verifyFloatingMenuStaysVisible</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -591,14 +792,136 @@
           <div class="suite-herokuapp_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest</span>
+              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyAddRemoveTest">
-                  </a> <!-- verifyAddRemoveTest -->
-                  <span class="method-name">verifyAddRemoveTest</span>
+                  <a name="verifyPageLoadsUnder3Seconds">
+                  </a> <!-- verifyPageLoadsUnder3Seconds -->
+                  <span class="method-name">verifyPageLoadsUnder3Seconds</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-herokuapp_Suite-class-passed -->
+          <div class="suite-herokuapp_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT06_ContextMenuTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyContextMenuAlert">
+                  </a> <!-- verifyContextMenuAlert -->
+                  <span class="method-name">verifyContextMenuAlert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-herokuapp_Suite-class-passed -->
+          <div class="suite-herokuapp_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHeadingText">
+                  </a> <!-- verifyHeadingText -->
+                  <span class="method-name">verifyHeadingText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageLoadsUnder3Seconds">
+                  </a> <!-- verifyPageLoadsUnder3Seconds -->
+                  <span class="method-name">verifyPageLoadsUnder3Seconds</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-herokuapp_Suite-class-passed -->
+          <div class="suite-herokuapp_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInfiniteScrollLoadsMoreContent">
+                  </a> <!-- verifyInfiniteScrollLoadsMoreContent -->
+                  <span class="method-name">verifyInfiniteScrollLoadsMoreContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-herokuapp_Suite-class-passed -->
+          <div class="suite-herokuapp_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginCredentials(, , false)">
+                  </a> <!-- verifyLoginCredentials(, , false) -->
+                  <span class="method-name">verifyLoginCredentials</span>
+                  <span class="parameters">(,,false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginCredentials(tomsmith, wrongPass, false)">
+                  </a> <!-- verifyLoginCredentials(tomsmith, wrongPass, false) -->
+                  <span class="method-name">verifyLoginCredentials</span>
+                  <span class="parameters">(tomsmith,wrongPass,false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginCredentials(tomsmith, SuperSecretPassword!, true)">
+                  </a> <!-- verifyLoginCredentials(tomsmith, SuperSecretPassword!, true) -->
+                  <span class="method-name">verifyLoginCredentials</span>
+                  <span class="parameters">(tomsmith,SuperSecretPassword!,true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginCredentials(wrongUser, SuperSecretPassword!, false)">
+                  </a> <!-- verifyLoginCredentials(wrongUser, SuperSecretPassword!, false) -->
+                  <span class="method-name">verifyLoginCredentials</span>
+                  <span class="parameters">(wrongUser,SuperSecretPassword!,false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-herokuapp_Suite-class-passed -->
+          <div class="suite-herokuapp_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySliderMovesUsingActions">
+                  </a> <!-- verifySliderMovesUsingActions -->
+                  <span class="method-name">verifySliderMovesUsingActions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-herokuapp_Suite-class-passed -->
+          <div class="suite-herokuapp_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckBoxes">
+                  </a> <!-- verifyCheckBoxes -->
+                  <span class="method-name">verifyCheckBoxes</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -628,14 +951,29 @@
           <div class="suite-herokuapp_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest</span>
+              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT10_DynamicLoadingTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyHeadingText">
-                  </a> <!-- verifyHeadingText -->
-                  <span class="method-name">verifyHeadingText</span>
+                  <a name="verifyDynamicLoadingFlow">
+                  </a> <!-- verifyDynamicLoadingFlow -->
+                  <span class="method-name">verifyDynamicLoadingFlow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-herokuapp_Suite-class-passed -->
+          <div class="suite-herokuapp_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddRemoveTest">
+                  </a> <!-- verifyAddRemoveTest -->
+                  <span class="method-name">verifyAddRemoveTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -672,24 +1010,41 @@
           <div class="suite-herokuapp_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT15_FloatingMenuTest</span>
+              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyFloatingMenuStaysVisible">
-                  </a> <!-- verifyFloatingMenuStaysVisible -->
-                  <span class="method-name">verifyFloatingMenuStaysVisible</span>
+                  <a name="verifyBasicAuth(user, pass, false)">
+                  </a> <!-- verifyBasicAuth(user, pass, false) -->
+                  <span class="method-name">verifyBasicAuth</span>
+                  <span class="parameters">(user,pass,false)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-herokuapp_Suite-class-passed -->
-          <div class="suite-herokuapp_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBasicAuth(admin, admin, true)">
+                  </a> <!-- verifyBasicAuth(admin, admin, true) -->
+                  <span class="method-name">verifyBasicAuth</span>
+                  <span class="parameters">(admin,admin,true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBasicAuth(admin, wrong, false)">
+                  </a> <!-- verifyBasicAuth(admin, wrong, false) -->
+                  <span class="method-name">verifyBasicAuth</span>
+                  <span class="parameters">(admin,wrong,false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBasicAuth(wrong, admin, false)">
+                  </a> <!-- verifyBasicAuth(wrong, admin, false) -->
+                  <span class="method-name">verifyBasicAuth</span>
+                  <span class="parameters">(wrong,admin,false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="verifyPageLoadsUnder3Seconds">
@@ -697,36 +1052,78 @@
                   <span class="method-name">verifyPageLoadsUnder3Seconds</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-herokuapp_Suite-class-passed -->
+          <div class="suite-herokuapp_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT09_DynamicControlTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyStatusCodeMessage(200)">
-                  </a> <!-- verifyStatusCodeMessage(200) -->
-                  <span class="method-name">verifyStatusCodeMessage</span>
-                  <span class="parameters">(200)</span>
+                  <a name="verifyDynamicControls">
+                  </a> <!-- verifyDynamicControls -->
+                  <span class="method-name">verifyDynamicControls</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-herokuapp_Suite-class-passed -->
+          <div class="suite-herokuapp_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT08_DropDownTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDropDown">
+                  </a> <!-- verifyDropDown -->
+                  <span class="method-name">verifyDropDown</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyStatusCodeMessage(301)">
-                  </a> <!-- verifyStatusCodeMessage(301) -->
-                  <span class="method-name">verifyStatusCodeMessage</span>
-                  <span class="parameters">(301)</span>
+                  <a name="verifyPageLoadsUnder3Seconds">
+                  </a> <!-- verifyPageLoadsUnder3Seconds -->
+                  <span class="method-name">verifyPageLoadsUnder3Seconds</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-herokuapp_Suite-class-passed -->
+          <div class="suite-herokuapp_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT18_HoversTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHoverUserProfile">
+                  </a> <!-- verifyHoverUserProfile -->
+                  <span class="method-name">verifyHoverUserProfile</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyStatusCodeMessage(404)">
-                  </a> <!-- verifyStatusCodeMessage(404) -->
-                  <span class="method-name">verifyStatusCodeMessage</span>
-                  <span class="parameters">(404)</span>
+                  <a name="verifyPageLoadsUnder3Seconds">
+                  </a> <!-- verifyPageLoadsUnder3Seconds -->
+                  <span class="method-name">verifyPageLoadsUnder3Seconds</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-herokuapp_Suite-class-passed -->
+          <div class="suite-herokuapp_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.milestone.four.herokuapp.pagestest.FT07_DragDropTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyStatusCodeMessage(500)">
-                  </a> <!-- verifyStatusCodeMessage(500) -->
-                  <span class="method-name">verifyStatusCodeMessage</span>
-                  <span class="parameters">(500)</span>
+                  <a name="verifyDragAndDrop">
+                  </a> <!-- verifyDragAndDrop -->
+                  <span class="method-name">verifyDragAndDrop</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -764,7 +1161,7 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;herokuapp Suite&quot; verbose=&quot;2&quot;&gt;
   &lt;listeners&gt;
-    &lt;listener class-name=&quot;com.milestone.four.listener.ScreenshotListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.milestone.four.listener.TestListener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;heroku chrome test&quot; verbose=&quot;2&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
@@ -840,159 +1237,159 @@ data.addRows(39);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyDynamicControls')
 data.setCell(0, 2, 'com.milestone.four.herokuapp.pagestest.FT09_DynamicControlTest')
-data.setCell(0, 3, 19707);
+data.setCell(0, 3, 20246);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyFileDownloadLink')
 data.setCell(1, 2, 'com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest')
-data.setCell(1, 3, 6947);
+data.setCell(1, 3, 7540);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyAddRemoveTest')
 data.setCell(2, 2, 'com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest')
-data.setCell(2, 3, 6939);
+data.setCell(2, 3, 7530);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verifyDynamicLoadingFlow')
 data.setCell(3, 2, 'com.milestone.four.herokuapp.pagestest.FT10_DynamicLoadingTest')
-data.setCell(3, 3, 6227);
+data.setCell(3, 3, 6601);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyInfiniteScrollLoadsMoreContent')
-data.setCell(4, 2, 'com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest')
-data.setCell(4, 3, 4862);
+data.setCell(4, 1, 'verifyFileUpload')
+data.setCell(4, 2, 'com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest')
+data.setCell(4, 3, 5959);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyLoginCredentials')
-data.setCell(5, 2, 'com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest')
-data.setCell(5, 3, 2441);
+data.setCell(5, 1, 'verifyInfiniteScrollLoadsMoreContent')
+data.setCell(5, 2, 'com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest')
+data.setCell(5, 3, 5013);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyFileUpload')
-data.setCell(6, 2, 'com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest')
-data.setCell(6, 3, 1914);
+data.setCell(6, 1, 'verifyLoginCredentials')
+data.setCell(6, 2, 'com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest')
+data.setCell(6, 3, 3605);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'verifyLoginCredentials')
 data.setCell(7, 2, 'com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest')
-data.setCell(7, 3, 1719);
+data.setCell(7, 3, 2340);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyLoginCredentials')
-data.setCell(8, 2, 'com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest')
-data.setCell(8, 3, 1663);
+data.setCell(8, 1, 'verifyPageLoadsUnder3Seconds')
+data.setCell(8, 2, 'com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest')
+data.setCell(8, 3, 2091);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'verifyLoginCredentials')
 data.setCell(9, 2, 'com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest')
-data.setCell(9, 3, 1655);
+data.setCell(9, 3, 2039);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifyPageLoadsUnder3Seconds')
-data.setCell(10, 2, 'com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest')
-data.setCell(10, 3, 1365);
+data.setCell(10, 1, 'verifyLoginCredentials')
+data.setCell(10, 2, 'com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest')
+data.setCell(10, 3, 2021);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'verifyHoverUserProfile')
 data.setCell(11, 2, 'com.milestone.four.herokuapp.pagestest.FT18_HoversTest')
-data.setCell(11, 3, 1311);
+data.setCell(11, 3, 1611);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'verifyBasicAuth')
 data.setCell(12, 2, 'com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest')
-data.setCell(12, 3, 1218);
+data.setCell(12, 3, 1471);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'verifyBasicAuth')
-data.setCell(13, 2, 'com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest')
-data.setCell(13, 3, 1173);
+data.setCell(13, 1, 'verifyStatusCodeMessage')
+data.setCell(13, 2, 'com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest')
+data.setCell(13, 3, 1356);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'verifyBasicAuth')
-data.setCell(14, 2, 'com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest')
-data.setCell(14, 3, 1137);
+data.setCell(14, 1, 'verifyStatusCodeMessage')
+data.setCell(14, 2, 'com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest')
+data.setCell(14, 3, 1349);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'verifyEntryAdPopup')
 data.setCell(15, 2, 'com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest')
-data.setCell(15, 3, 1109);
+data.setCell(15, 3, 1335);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'verifyBasicAuth')
 data.setCell(16, 2, 'com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest')
-data.setCell(16, 3, 1105);
+data.setCell(16, 3, 1327);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'verifySliderMovesUsingActions')
 data.setCell(17, 2, 'com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest')
-data.setCell(17, 3, 1099);
+data.setCell(17, 3, 1324);
 data.setCell(18, 0, 18)
 data.setCell(18, 1, 'verifyStatusCodeMessage')
 data.setCell(18, 2, 'com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest')
-data.setCell(18, 3, 1087);
+data.setCell(18, 3, 1290);
 data.setCell(19, 0, 19)
 data.setCell(19, 1, 'verifyStatusCodeMessage')
 data.setCell(19, 2, 'com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest')
-data.setCell(19, 3, 1010);
+data.setCell(19, 3, 1272);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'verifyStatusCodeMessage')
-data.setCell(20, 2, 'com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest')
-data.setCell(20, 3, 997);
+data.setCell(20, 1, 'verifyBasicAuth')
+data.setCell(20, 2, 'com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest')
+data.setCell(20, 3, 1249);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'verifyStatusCodeMessage')
-data.setCell(21, 2, 'com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest')
-data.setCell(21, 3, 984);
+data.setCell(21, 1, 'verifyBasicAuth')
+data.setCell(21, 2, 'com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest')
+data.setCell(21, 3, 1231);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'verifyFloatingMenuStaysVisible')
-data.setCell(22, 2, 'com.milestone.four.herokuapp.pagestest.FT15_FloatingMenuTest')
-data.setCell(22, 3, 836);
+data.setCell(22, 1, 'verifyDropDown')
+data.setCell(22, 2, 'com.milestone.four.herokuapp.pagestest.FT08_DropDownTest')
+data.setCell(22, 3, 1127);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'verifyBrokenImages')
-data.setCell(23, 2, 'com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest')
-data.setCell(23, 3, 825);
+data.setCell(23, 1, 'verifyFloatingMenuStaysVisible')
+data.setCell(23, 2, 'com.milestone.four.herokuapp.pagestest.FT15_FloatingMenuTest')
+data.setCell(23, 3, 1066);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'verifyDragAndDrop')
-data.setCell(24, 2, 'com.milestone.four.herokuapp.pagestest.FT07_DragDropTest')
-data.setCell(24, 3, 796);
+data.setCell(24, 1, 'verifyBrokenImages')
+data.setCell(24, 2, 'com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest')
+data.setCell(24, 3, 1023);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'verifyDropDown')
-data.setCell(25, 2, 'com.milestone.four.herokuapp.pagestest.FT08_DropDownTest')
-data.setCell(25, 3, 764);
+data.setCell(25, 1, 'verifyDragAndDrop')
+data.setCell(25, 2, 'com.milestone.four.herokuapp.pagestest.FT07_DragDropTest')
+data.setCell(25, 3, 938);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'verifyPageLoadsUnder3Seconds')
-data.setCell(26, 2, 'com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest')
-data.setCell(26, 3, 718);
+data.setCell(26, 1, 'verifyNoTypoInParagraph')
+data.setCell(26, 2, 'com.milestone.four.herokuapp.pagestest.FT12_TyposTest')
+data.setCell(26, 3, 803);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'verifyPageLoadsUnder3Seconds')
-data.setCell(27, 2, 'com.milestone.four.herokuapp.pagestest.FT18_HoversTest')
-data.setCell(27, 3, 678);
+data.setCell(27, 1, 'verifyContextMenuAlert')
+data.setCell(27, 2, 'com.milestone.four.herokuapp.pagestest.FT06_ContextMenuTest')
+data.setCell(27, 3, 755);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'verifyContextMenuAlert')
-data.setCell(28, 2, 'com.milestone.four.herokuapp.pagestest.FT06_ContextMenuTest')
-data.setCell(28, 3, 610);
+data.setCell(28, 1, 'verifyPageLoadsUnder3Seconds')
+data.setCell(28, 2, 'com.milestone.four.herokuapp.pagestest.FT18_HoversTest')
+data.setCell(28, 3, 739);
 data.setCell(29, 0, 29)
-data.setCell(29, 1, 'verifyNoTypoInParagraph')
-data.setCell(29, 2, 'com.milestone.four.herokuapp.pagestest.FT12_TyposTest')
-data.setCell(29, 3, 592);
+data.setCell(29, 1, 'verifyPageLoadsUnder3Seconds')
+data.setCell(29, 2, 'com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest')
+data.setCell(29, 3, 725);
 data.setCell(30, 0, 30)
-data.setCell(30, 1, 'verifyCheckBoxes')
-data.setCell(30, 2, 'com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest')
-data.setCell(30, 3, 522);
+data.setCell(30, 1, 'verifyPageLoadsUnder3Seconds')
+data.setCell(30, 2, 'com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest')
+data.setCell(30, 3, 720);
 data.setCell(31, 0, 31)
-data.setCell(31, 1, 'verifyHeadingText')
-data.setCell(31, 2, 'com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest')
-data.setCell(31, 3, 504);
+data.setCell(31, 1, 'verifyCheckBoxes')
+data.setCell(31, 2, 'com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest')
+data.setCell(31, 3, 714);
 data.setCell(32, 0, 32)
-data.setCell(32, 1, 'verifyPageLoadsUnder3Seconds')
-data.setCell(32, 2, 'com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest')
-data.setCell(32, 3, 409);
+data.setCell(32, 1, 'verifyHeadingText')
+data.setCell(32, 2, 'com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest')
+data.setCell(32, 3, 610);
 data.setCell(33, 0, 33)
 data.setCell(33, 1, 'verifyPageLoadsUnder3Seconds')
 data.setCell(33, 2, 'com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest')
-data.setCell(33, 3, 389);
+data.setCell(33, 3, 485);
 data.setCell(34, 0, 34)
 data.setCell(34, 1, 'verifyPageLoadsUnder3Seconds')
-data.setCell(34, 2, 'com.milestone.four.herokuapp.pagestest.FT08_DropDownTest')
-data.setCell(34, 3, 366);
+data.setCell(34, 2, 'com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest')
+data.setCell(34, 3, 414);
 data.setCell(35, 0, 35)
 data.setCell(35, 1, 'verifyPageLoadsUnder3Seconds')
-data.setCell(35, 2, 'com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest')
-data.setCell(35, 3, 362);
+data.setCell(35, 2, 'com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest')
+data.setCell(35, 3, 411);
 data.setCell(36, 0, 36)
 data.setCell(36, 1, 'verifyPageLoadsUnder3Seconds')
-data.setCell(36, 2, 'com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest')
-data.setCell(36, 3, 359);
+data.setCell(36, 2, 'com.milestone.four.herokuapp.pagestest.FT08_DropDownTest')
+data.setCell(36, 3, 399);
 data.setCell(37, 0, 37)
 data.setCell(37, 1, 'verifyPageLoadsUnder3Seconds')
 data.setCell(37, 2, 'com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest')
-data.setCell(37, 3, 356);
+data.setCell(37, 3, 392);
 data.setCell(38, 0, 38)
 data.setCell(38, 1, 'verifyPageLoadsUnder3Seconds')
 data.setCell(38, 2, 'com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest')
-data.setCell(38, 3, 351);
+data.setCell(38, 3, 390);
 window.suiteTableData['herokuapp_Suite']= { tableData: data, tableDiv: 'times-div-herokuapp_Suite'}
 return data;
 }
@@ -1009,35 +1406,10 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyDragAndDrop</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initializing DragDropPage</span>
-                <span class="reporter-method-output">Performing Drag and Drop A to B</span>
-                <span class="reporter-method-output">Test PASSED: verifyDragAndDrop</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyCheckBoxes</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initialization of CheckBox Method</span>
-                <span class="reporter-method-output">Selecting checkBox at index : 0</span>
-                <span class="reporter-method-output">CheckBox is selected at Index: 0</span>
-                <span class="reporter-method-output">Test PASSED: verifyCheckBoxes</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyBasicAuth(wrong, admin, false)</span>
+              <span class="reporter-method-name">verifyBasicAuth(user, pass, false)</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Initializing Basic auth</span>
                 <span class="reporter-method-output">Navigating with Basic Auth credentials</span>
-                <span class="reporter-method-output">Test PASSED: verifyBasicAuth</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyPageLoadsUnder3Seconds</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initializing PerformancePage</span>
-                <span class="reporter-method-output">Test PASSED: verifyPageLoadsUnder3Seconds</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -1046,72 +1418,15 @@ return data;
                 <span class="reporter-method-output">Initializing Basic auth</span>
                 <span class="reporter-method-output">Navigating with Basic Auth credentials</span>
                 <span class="reporter-method-output">Validating success message</span>
-                <span class="reporter-method-output">Test PASSED: verifyBasicAuth</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyPageLoadsUnder3Seconds</span>
+              <span class="reporter-method-name">verifyDynamicLoadingFlow</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initializing PerformancePage</span>
-                <span class="reporter-method-output">Test PASSED: verifyPageLoadsUnder3Seconds</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyContextMenuAlert</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initialization of the ContextMenuPage</span>
-                <span class="reporter-method-output">Performing right click on the contextMenu</span>
-                <span class="reporter-method-output">Started Handling the alert text</span>
-                <span class="reporter-method-output">Test PASSED: verifyContextMenuAlert</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyHeadingText</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initializing ABtesting</span>
-                <span class="reporter-method-output">fetching heading text for abtesting</span>
-                <span class="reporter-method-output">Test PASSED: verifyHeadingText</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyBasicAuth(admin, wrong, false)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initializing Basic auth</span>
-                <span class="reporter-method-output">Navigating with Basic Auth credentials</span>
-                <span class="reporter-method-output">Test PASSED: verifyBasicAuth</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyBasicAuth(user, pass, false)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initializing Basic auth</span>
-                <span class="reporter-method-output">Navigating with Basic Auth credentials</span>
-                <span class="reporter-method-output">Test PASSED: verifyBasicAuth</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyPageLoadsUnder3Seconds</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initializing PerformancePage</span>
-                <span class="reporter-method-output">Test PASSED: verifyPageLoadsUnder3Seconds</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyDynamicControls</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initialization of Dynamic Control Page</span>
-                <span class="reporter-method-output">Started click on remove button</span>
-                <span class="reporter-method-output">Started click on add button</span>
-                <span class="reporter-method-output">Start clicking on Enabled Button</span>
-                <span class="reporter-method-output">Start clicking on Diabled button</span>
-                <span class="reporter-method-output">Test PASSED: verifyDynamicControls</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyPageLoadsUnder3Seconds</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initializing PerformancePage</span>
-                <span class="reporter-method-output">Test PASSED: verifyPageLoadsUnder3Seconds</span>
+                <span class="reporter-method-output">Initializing DynamicLoadingPage</span>
+                <span class="reporter-method-output">Clicking Start button</span>
+                <span class="reporter-method-output">Waiting for loading to finish</span>
+                <span class="reporter-method-output">Waiting for finish text</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -1122,31 +1437,79 @@ return data;
                 <span class="reporter-method-output">Initialization of Add Button</span>
                 <span class="reporter-method-output">Initialization of Add Button</span>
                 <span class="reporter-method-output">Deleting all delete Button</span>
-                <span class="reporter-method-output">Test PASSED: verifyAddRemoveTest</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">verifyPageLoadsUnder3Seconds</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Initializing PerformancePage</span>
-                <span class="reporter-method-output">Test PASSED: verifyPageLoadsUnder3Seconds</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">verifyPageLoadsUnder3Seconds</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Initializing PerformancePage</span>
-                <span class="reporter-method-output">Test PASSED: verifyPageLoadsUnder3Seconds</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyDynamicLoadingFlow</span>
+              <span class="reporter-method-name">verifyCheckBoxes</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initializing DynamicLoadingPage</span>
-                <span class="reporter-method-output">Clicking Start button</span>
-                <span class="reporter-method-output">Waiting for loading to finish</span>
-                <span class="reporter-method-output">Waiting for finish text</span>
-                <span class="reporter-method-output">Test PASSED: verifyDynamicLoadingFlow</span>
+                <span class="reporter-method-output">Initialization of CheckBox Method</span>
+                <span class="reporter-method-output">Selecting checkBox at index : 0</span>
+                <span class="reporter-method-output">CheckBox is selected at Index: 0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyDragAndDrop</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Initializing DragDropPage</span>
+                <span class="reporter-method-output">Performing Drag and Drop A to B</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyPageLoadsUnder3Seconds</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Initializing PerformancePage</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyPageLoadsUnder3Seconds</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Initializing PerformancePage</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyContextMenuAlert</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Initialization of the ContextMenuPage</span>
+                <span class="reporter-method-output">Performing right click on the contextMenu</span>
+                <span class="reporter-method-output">Started Handling the alert text</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyBasicAuth(admin, wrong, false)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Initializing Basic auth</span>
+                <span class="reporter-method-output">Navigating with Basic Auth credentials</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyHeadingText</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Initializing ABtesting</span>
+                <span class="reporter-method-output">fetching heading text for abtesting</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyPageLoadsUnder3Seconds</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Initializing PerformancePage</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyPageLoadsUnder3Seconds</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Initializing PerformancePage</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -1155,7 +1518,13 @@ return data;
                 <span class="reporter-method-output">Initialization of Broken Image Test</span>
                 <span class="reporter-method-output">Checking the Broken state of the images</span>
                 <span class="reporter-method-output">Checking the Broken state of the images</span>
-                <span class="reporter-method-output">Test PASSED: verifyBrokenImages</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyBasicAuth(wrong, admin, false)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Initializing Basic auth</span>
+                <span class="reporter-method-output">Navigating with Basic Auth credentials</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -1164,39 +1533,45 @@ return data;
                 <span class="reporter-method-output">Initialization of Drop-Down Page</span>
                 <span class="reporter-method-output">Selecting the option from drop down</span>
                 <span class="reporter-method-output">Selecting the option from drop down</span>
-                <span class="reporter-method-output">Test PASSED: verifyDropDown</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyLoginCredentials(tomsmith, SuperSecretPassword!, true)</span>
+              <span class="reporter-method-name">verifyDynamicControls</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Initialization of Dynamic Control Page</span>
+                <span class="reporter-method-output">Started click on remove button</span>
+                <span class="reporter-method-output">Started click on add button</span>
+                <span class="reporter-method-output">Start clicking on Enabled Button</span>
+                <span class="reporter-method-output">Start clicking on Diabled button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyFileUpload</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Initializing FileUploadPage</span>
+                <span class="reporter-method-output">Uploading file: C:\Projects\Sample.txt.txt</span>
+                <span class="reporter-method-output">Clicking Upload button</span>
+                <span class="reporter-method-output">Uploaded file name: Sample.txt.txt</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoginCredentials(, , false)</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Initialization of LoginForm Page Authentication</span>
-                <span class="reporter-method-output">Test PASSED: verifyLoginCredentials</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyHoverUserProfile</span>
+              <span class="reporter-method-name">verifyLoginCredentials(tomsmith, wrongPass, false)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initializing HoversPage</span>
-                <span class="reporter-method-output">Hovering over user index: 0</span>
-                <span class="reporter-method-output">Hovering over user index: 1</span>
-                <span class="reporter-method-output">Hovering over user index: 2</span>
-                <span class="reporter-method-output">Test PASSED: verifyHoverUserProfile</span>
+                <span class="reporter-method-output">Initialization of LoginForm Page Authentication</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyStatusCodeMessage(200)</span>
+              <span class="reporter-method-name">verifyFileDownloadLink</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initializing StatusCodesPage</span>
-                <span class="reporter-method-output">Clicking Status Code: 200</span>
-                <span class="reporter-method-output">Test PASSED: verifyStatusCodeMessage</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyPageLoadsUnder3Seconds</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initializing PerformancePage</span>
-                <span class="reporter-method-output">Test PASSED: verifyPageLoadsUnder3Seconds</span>
+                <span class="reporter-method-output">Initializing FileDownloadPage</span>
+                <span class="reporter-method-output">Download link: https://the-internet.herokuapp.com/download/some-file.txt</span>
+                <span class="reporter-method-output">Clicking file download link</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -1207,64 +1582,18 @@ return data;
                 <span class="reporter-method-output">Checking if floating menu is displayed</span>
                 <span class="reporter-method-output">Scrolling page by: -800</span>
                 <span class="reporter-method-output">Checking if floating menu is displayed</span>
-                <span class="reporter-method-output">Test PASSED: verifyFloatingMenuStaysVisible</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyNoTypoInParagraph</span>
+              <span class="reporter-method-name">verifyLoginCredentials(tomsmith, SuperSecretPassword!, true)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initializing TyposPage</span>
-                <span class="reporter-method-output">Test PASSED: verifyNoTypoInParagraph</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifySliderMovesUsingActions</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initializing HorizontalSliderPage</span>
-                <span class="reporter-method-output">Moving slider to value (via Actions): 5</span>
-                <span class="reporter-method-output">Moved slider using Actions successfully</span>
-                <span class="reporter-method-output">Test PASSED: verifySliderMovesUsingActions</span>
+                <span class="reporter-method-output">Initialization of LoginForm Page Authentication</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">verifyPageLoadsUnder3Seconds</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Initializing PerformancePage</span>
-                <span class="reporter-method-output">Test PASSED: verifyPageLoadsUnder3Seconds</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyLoginCredentials(, , false)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initialization of LoginForm Page Authentication</span>
-                <span class="reporter-method-output">Test PASSED: verifyLoginCredentials</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyStatusCodeMessage(301)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initializing StatusCodesPage</span>
-                <span class="reporter-method-output">Clicking Status Code: 301</span>
-                <span class="reporter-method-output">Test PASSED: verifyStatusCodeMessage</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyFileUpload</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initializing FileUploadPage</span>
-                <span class="reporter-method-output">Uploading file: C:\Projects\Sample.txt.txt</span>
-                <span class="reporter-method-output">Clicking Upload button</span>
-                <span class="reporter-method-output">Uploaded file name: Sample.txt.txt</span>
-                <span class="reporter-method-output">Test PASSED: verifyFileUpload</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyFileDownloadLink</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initializing FileDownloadPage</span>
-                <span class="reporter-method-output">Download link: https://the-internet.herokuapp.com/download/some-file.txt</span>
-                <span class="reporter-method-output">Clicking file download link</span>
-                <span class="reporter-method-output">Test PASSED: verifyFileDownloadLink</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -1275,7 +1604,53 @@ return data;
                 <span class="reporter-method-output">Scrolling down the page</span>
                 <span class="reporter-method-output">Scrolling down the page</span>
                 <span class="reporter-method-output">Scrolling down the page</span>
-                <span class="reporter-method-output">Test PASSED: verifyInfiniteScrollLoadsMoreContent</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyNoTypoInParagraph</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Initializing TyposPage</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyPageLoadsUnder3Seconds</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Initializing PerformancePage</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyPageLoadsUnder3Seconds</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Initializing PerformancePage</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyPageLoadsUnder3Seconds</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Initializing PerformancePage</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoginCredentials(wrongUser, SuperSecretPassword!, false)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Initialization of LoginForm Page Authentication</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyHoverUserProfile</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Initializing HoversPage</span>
+                <span class="reporter-method-output">Hovering over user index: 0</span>
+                <span class="reporter-method-output">Hovering over user index: 1</span>
+                <span class="reporter-method-output">Hovering over user index: 2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySliderMovesUsingActions</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Initializing HorizontalSliderPage</span>
+                <span class="reporter-method-output">Moving slider to value (via Actions): 5</span>
+                <span class="reporter-method-output">Moved slider using Actions successfully</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -1285,22 +1660,20 @@ return data;
                 <span class="reporter-method-output">Waiting for modal popup</span>
                 <span class="reporter-method-output">Closing modal popup</span>
                 <span class="reporter-method-output">Checking if modal popup is closed</span>
-                <span class="reporter-method-output">Test PASSED: verifyEntryAdPopup</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyStatusCodeMessage(404)</span>
+              <span class="reporter-method-name">verifyStatusCodeMessage(200)</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Initializing StatusCodesPage</span>
-                <span class="reporter-method-output">Clicking Status Code: 404</span>
-                <span class="reporter-method-output">Test PASSED: verifyStatusCodeMessage</span>
+                <span class="reporter-method-output">Clicking Status Code: 200</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyPageLoadsUnder3Seconds</span>
+              <span class="reporter-method-name">verifyStatusCodeMessage(301)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initializing PerformancePage</span>
-                <span class="reporter-method-output">Test PASSED: verifyPageLoadsUnder3Seconds</span>
+                <span class="reporter-method-output">Initializing StatusCodesPage</span>
+                <span class="reporter-method-output">Clicking Status Code: 301</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -1308,28 +1681,13 @@ return data;
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Initializing StatusCodesPage</span>
                 <span class="reporter-method-output">Clicking Status Code: 500</span>
-                <span class="reporter-method-output">Test PASSED: verifyStatusCodeMessage</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyLoginCredentials(wrongUser, SuperSecretPassword!, false)</span>
+              <span class="reporter-method-name">verifyStatusCodeMessage(404)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initialization of LoginForm Page Authentication</span>
-                <span class="reporter-method-output">Test PASSED: verifyLoginCredentials</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyLoginCredentials(tomsmith, wrongPass, false)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initialization of LoginForm Page Authentication</span>
-                <span class="reporter-method-output">Test PASSED: verifyLoginCredentials</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyPageLoadsUnder3Seconds</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Initializing PerformancePage</span>
-                <span class="reporter-method-output">Test PASSED: verifyPageLoadsUnder3Seconds</span>
+                <span class="reporter-method-output">Initializing StatusCodesPage</span>
+                <span class="reporter-method-output">Clicking Status Code: 404</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -1354,732 +1712,736 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">13 ms</span>
+                <span class="method-start">1 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyHeadingText</span>
-                <span class="method-start">6092 ms</span>
+                <span class="method-start">14007 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">6717 ms</span>
+                <span class="method-start">14765 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">6862 ms</span>
+                <span class="method-start">15102 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyPageLoadsUnder3Seconds</span>
-                <span class="method-start">11950 ms</span>
+                <span class="method-start">20324 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">12432 ms</span>
+                <span class="method-start">20911 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">12559 ms</span>
+                <span class="method-start">21140 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">12560 ms</span>
+                <span class="method-start">21142 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">12561 ms</span>
+                <span class="method-start">21142 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyAddRemoveTest</span>
-                <span class="method-start">17556 ms</span>
+                <span class="method-start">26013 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">24614 ms</span>
+                <span class="method-start">33683 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">24769 ms</span>
+                <span class="method-start">33956 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyPageLoadsUnder3Seconds</span>
-                <span class="method-start">30467 ms</span>
+                <span class="method-start">38825 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">30968 ms</span>
+                <span class="method-start">39414 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">39640 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">31102 ms</span>
+                <span class="method-start">39641 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">31102 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">31106 ms</span>
+                <span class="method-start">39643 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyBasicAuth(admin, admin, true)</span>
-                <span class="method-start">36921 ms</span>
+                <span class="method-start">44612 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">38257 ms</span>
+                <span class="method-start">46220 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">38404 ms</span>
+                <span class="method-start">46453 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyBasicAuth(wrong, admin, false)</span>
-                <span class="method-start">43999 ms</span>
+                <span class="method-start">51697 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">45292 ms</span>
+                <span class="method-start">53079 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">45436 ms</span>
+                <span class="method-start">53318 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyBasicAuth(admin, wrong, false)</span>
-                <span class="method-start">51273 ms</span>
+                <span class="method-start">58379 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">52533 ms</span>
+                <span class="method-start">59857 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">52677 ms</span>
+                <span class="method-start">60075 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyBasicAuth(user, pass, false)</span>
-                <span class="method-start">57413 ms</span>
+                <span class="method-start">65025 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">58647 ms</span>
+                <span class="method-start">66438 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">58781 ms</span>
+                <span class="method-start">66666 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyPageLoadsUnder3Seconds</span>
-                <span class="method-start">63595 ms</span>
+                <span class="method-start">71272 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">64114 ms</span>
+                <span class="method-start">71913 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">64255 ms</span>
+                <span class="method-start">72136 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">64257 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">64257 ms</span>
+                <span class="method-start">72136 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">72137 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyBrokenImages</span>
-                <span class="method-start">69608 ms</span>
+                <span class="method-start">76988 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">70543 ms</span>
+                <span class="method-start">78154 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">70664 ms</span>
+                <span class="method-start">78395 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyPageLoadsUnder3Seconds</span>
-                <span class="method-start">76230 ms</span>
+                <span class="method-start">83615 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">77092 ms</span>
+                <span class="method-start">84489 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">84742 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">77223 ms</span>
+                <span class="method-start">84743 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">77223 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">77223 ms</span>
+                <span class="method-start">84743 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyCheckBoxes</span>
-                <span class="method-start">82827 ms</span>
+                <span class="method-start">89713 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">83476 ms</span>
+                <span class="method-start">90590 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">83605 ms</span>
+                <span class="method-start">90828 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyPageLoadsUnder3Seconds</span>
-                <span class="method-start">89178 ms</span>
+                <span class="method-start">95671 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">89651 ms</span>
+                <span class="method-start">96218 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT06_ContextMenuTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">89784 ms</span>
+                <span class="method-start">96434 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">89784 ms</span>
+                <span class="method-start">96434 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT06_ContextMenuTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">89785 ms</span>
+                <span class="method-start">96436 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyContextMenuAlert</span>
-                <span class="method-start">95470 ms</span>
+                <span class="method-start">101614 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">96199 ms</span>
+                <span class="method-start">102663 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">96327 ms</span>
+                <span class="method-start">102905 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT07_DragDropTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">96327 ms</span>
+                <span class="method-start">102905 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">96327 ms</span>
+                <span class="method-start">102906 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyDragAndDrop</span>
-                <span class="method-start">101920 ms</span>
+                <span class="method-start">107890 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">102823 ms</span>
+                <span class="method-start">108992 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">109230 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT08_DropDownTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">102954 ms</span>
+                <span class="method-start">109232 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT07_DragDropTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">102954 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT08_DropDownTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">102954 ms</span>
+                <span class="method-start">109232 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyDropDown</span>
-                <span class="method-start">108424 ms</span>
+                <span class="method-start">114369 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">109289 ms</span>
+                <span class="method-start">115648 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">109434 ms</span>
+                <span class="method-start">115863 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyPageLoadsUnder3Seconds</span>
-                <span class="method-start">115149 ms</span>
+                <span class="method-start">121010 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">115713 ms</span>
+                <span class="method-start">121722 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT09_DynamicControlTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">115850 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">115850 ms</span>
+                <span class="method-start">121962 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT08_DropDownTest</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">115850 ms</span>
+                <span class="method-start">121962 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT09_DynamicControlTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">121963 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyDynamicControls</span>
-                <span class="method-start">121592 ms</span>
+                <span class="method-start">127096 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">141441 ms</span>
+                <span class="method-start">147537 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">141636 ms</span>
-              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT10_DynamicLoadingTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">141636 ms</span>
+                <span class="method-start">147822 ms</span>
               </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT09_DynamicControlTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">147822 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT10_DynamicLoadingTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">141637 ms</span>
+                <span class="method-start">147823 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyDynamicLoadingFlow</span>
-                <span class="method-start">147217 ms</span>
+                <span class="method-start">158301 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">153528 ms</span>
+                <span class="method-start">165049 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">153665 ms</span>
+                <span class="method-start">165284 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">153684 ms</span>
+                <span class="method-start">165398 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(firefox)</span>
-                <span class="method-start">153686 ms</span>
+                <span class="method-start">165399 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifyEntryAdPopup</span>
-                <span class="method-start">165367 ms</span>
+                <span class="method-start">174212 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">166520 ms</span>
+                <span class="method-start">175597 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">167395 ms</span>
+                <span class="method-start">177174 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT12_TyposTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">167395 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(firefox)</span>
-                <span class="method-start">167396 ms</span>
+                <span class="method-start">177175 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">177175 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyNoTypoInParagraph</span>
-                <span class="method-start">174591 ms</span>
+                <span class="method-start">203428 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">175226 ms</span>
+                <span class="method-start">204300 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(firefox)</span>
-                <span class="method-start">176234 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">176234 ms</span>
+                <span class="method-start">205922 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT12_TyposTest</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">176234 ms</span>
+                <span class="method-start">205922 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(firefox)</span>
+                <span class="method-start">205923 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyFileUpload</span>
-                <span class="method-start">187050 ms</span>
+                <span class="method-start">219767 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">188994 ms</span>
+                <span class="method-start">225770 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(firefox)</span>
-                <span class="method-start">190112 ms</span>
+                <span class="method-start">227314 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyPageLoadsUnder3Seconds</span>
-                <span class="method-start">199860 ms</span>
+                <span class="method-start">237046 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">201265 ms</span>
+                <span class="method-start">237841 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(firefox)</span>
+                <span class="method-start">239423 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">239423 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">202307 ms</span>
+                <span class="method-start">239423 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">202307 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(firefox)</span>
-                <span class="method-start">202308 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyFileDownloadLink</span>
-                <span class="method-start">209921 ms</span>
+                <span class="method-start">258202 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">216909 ms</span>
+                <span class="method-start">265798 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(firefox)</span>
-                <span class="method-start">217944 ms</span>
+                <span class="method-start">267352 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyPageLoadsUnder3Seconds</span>
-                <span class="method-start">225568 ms</span>
+                <span class="method-start">293217 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">226033 ms</span>
+                <span class="method-start">295381 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">227037 ms</span>
+                <span class="method-start">297304 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT15_FloatingMenuTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">227037 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(firefox)</span>
-                <span class="method-start">227037 ms</span>
+                <span class="method-start">297305 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">297305 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyFloatingMenuStaysVisible</span>
-                <span class="method-start">238137 ms</span>
+                <span class="method-start">311367 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">239018 ms</span>
+                <span class="method-start">312498 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">240035 ms</span>
+                <span class="method-start">313962 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">240035 ms</span>
+                <span class="method-start">313963 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(firefox)</span>
-                <span class="method-start">240036 ms</span>
+                <span class="method-start">313964 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyLoginCredentials(tomsmith, SuperSecretPassword!, true)</span>
-                <span class="method-start">247161 ms</span>
+                <span class="method-start">328536 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">249659 ms</span>
+                <span class="method-start">332222 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(firefox)</span>
-                <span class="method-start">250848 ms</span>
+                <span class="method-start">333788 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyLoginCredentials(tomsmith, wrongPass, false)</span>
-                <span class="method-start">258412 ms</span>
+                <span class="method-start">342586 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">260110 ms</span>
+                <span class="method-start">344660 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(firefox)</span>
-                <span class="method-start">261129 ms</span>
+                <span class="method-start">346227 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyLoginCredentials(wrongUser, SuperSecretPassword!, false)</span>
-                <span class="method-start">268663 ms</span>
+                <span class="method-start">360216 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">270416 ms</span>
+                <span class="method-start">362610 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(firefox)</span>
-                <span class="method-start">271419 ms</span>
+                <span class="method-start">364124 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyLoginCredentials(, , false)</span>
-                <span class="method-start">279817 ms</span>
+                <span class="method-start">372868 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">281512 ms</span>
+                <span class="method-start">374971 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">376610 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">282513 ms</span>
+                <span class="method-start">376611 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">282513 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(firefox)</span>
-                <span class="method-start">282515 ms</span>
+                <span class="method-start">376611 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifySliderMovesUsingActions</span>
-                <span class="method-start">290232 ms</span>
+                <span class="method-start">390878 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">291370 ms</span>
+                <span class="method-start">392248 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">292410 ms</span>
-              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT18_HoversTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">292411 ms</span>
+                <span class="method-start">393800 ms</span>
               </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">393800 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT18_HoversTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(firefox)</span>
-                <span class="method-start">292411 ms</span>
+                <span class="method-start">393800 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyHoverUserProfile</span>
-                <span class="method-start">300120 ms</span>
+                <span class="method-start">402370 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">301458 ms</span>
+                <span class="method-start">404031 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(firefox)</span>
-                <span class="method-start">302464 ms</span>
+                <span class="method-start">405529 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyPageLoadsUnder3Seconds</span>
-                <span class="method-start">310785 ms</span>
+                <span class="method-start">414288 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">311499 ms</span>
+                <span class="method-start">415090 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">312515 ms</span>
+                <span class="method-start">416736 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">312515 ms</span>
+                <span class="method-start">416737 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(firefox)</span>
-                <span class="method-start">312515 ms</span>
+                <span class="method-start">416737 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyInfiniteScrollLoadsMoreContent</span>
-                <span class="method-start">320200 ms</span>
+                <span class="method-start">427009 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">325100 ms</span>
+                <span class="method-start">432087 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">326154 ms</span>
-              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(firefox)</span>
+                <span class="method-start">433644 ms</span>
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">326154 ms</span>
+                <span class="method-start">433644 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(firefox)</span>
-                <span class="method-start">326155 ms</span>
-              </div> <!-- configuration-method before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">433644 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyPageLoadsUnder3Seconds</span>
-                <span class="method-start">334019 ms</span>
+                <span class="method-start">442255 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">334453 ms</span>
+                <span class="method-start">442822 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(firefox)</span>
-                <span class="method-start">335348 ms</span>
+                <span class="method-start">444435 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifyStatusCodeMessage(200)</span>
-                <span class="method-start">343332 ms</span>
+                <span class="method-start">454005 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">344374 ms</span>
+                <span class="method-start">455405 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(firefox)</span>
-                <span class="method-start">345415 ms</span>
+                <span class="method-start">456879 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifyStatusCodeMessage(301)</span>
-                <span class="method-start">369668 ms</span>
+                <span class="method-start">467978 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">370685 ms</span>
+                <span class="method-start">469385 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(firefox)</span>
-                <span class="method-start">371569 ms</span>
+                <span class="method-start">470997 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifyStatusCodeMessage(404)</span>
-                <span class="method-start">378919 ms</span>
+                <span class="method-start">479944 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">380052 ms</span>
+                <span class="method-start">481284 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(firefox)</span>
-                <span class="method-start">381467 ms</span>
+                <span class="method-start">482777 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifyStatusCodeMessage(500)</span>
-                <span class="method-start">410211 ms</span>
+                <span class="method-start">491228 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">411239 ms</span>
+                <span class="method-start">492567 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">412122 ms</span>
+                <span class="method-start">494092 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

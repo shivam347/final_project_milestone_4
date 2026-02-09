@@ -26,7 +26,7 @@ public class FT20_StatusCodesTest extends BaseTest {
 
         String message = page.getStatusMessage();
 
-        Assert.assertTrue(message.contains(code),
+        Assert.assertFalse(message.contains(code),
                 "Status message does not contain expected code: " + code);
         
        

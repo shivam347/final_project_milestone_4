@@ -1,6 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="39" passed="39" failed="0" skipped="0">
+<testng-results ignored="0" total="39" passed="34" failed="5" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Data Provider value inserted]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage contructor start to initialise Driver]]>
+    </line>
+    <line>
+      <![CDATA[Login started]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage contructor start to initialise Driver]]>
+    </line>
+    <line>
+      <![CDATA[Login started]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage contructor start to initialise Driver]]>
+    </line>
+    <line>
+      <![CDATA[Login started]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Data Provider value inserted]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[firefox]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage contructor start to initialise Driver]]>
+    </line>
+    <line>
+      <![CDATA[Login started]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[firefox]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage contructor start to initialise Driver]]>
+    </line>
+    <line>
+      <![CDATA[Login started]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[firefox]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage contructor start to initialise Driver]]>
+    </line>
+    <line>
+      <![CDATA[Login started]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closing]]>
+    </line>
     <line>
       <![CDATA[Browser is opening]]>
     </line>
@@ -17,9 +149,6 @@
       <![CDATA[fetching heading text for abtesting]]>
     </line>
     <line>
-      <![CDATA[Test PASSED: verifyHeadingText]]>
-    </line>
-    <line>
       <![CDATA[Browser is closing]]>
     </line>
     <line>
@@ -33,9 +162,6 @@
     </line>
     <line>
       <![CDATA[Initializing PerformancePage]]>
-    </line>
-    <line>
-      <![CDATA[Test PASSED: verifyPageLoadsUnder3Seconds]]>
     </line>
     <line>
       <![CDATA[Browser is closing]]>
@@ -65,9 +191,6 @@
       <![CDATA[Deleting all delete Button]]>
     </line>
     <line>
-      <![CDATA[Test PASSED: verifyAddRemoveTest]]>
-    </line>
-    <line>
       <![CDATA[Browser is closing]]>
     </line>
     <line>
@@ -81,9 +204,6 @@
     </line>
     <line>
       <![CDATA[Initializing PerformancePage]]>
-    </line>
-    <line>
-      <![CDATA[Test PASSED: verifyPageLoadsUnder3Seconds]]>
     </line>
     <line>
       <![CDATA[Browser is closing]]>
@@ -110,7 +230,22 @@
       <![CDATA[Validating success message]]>
     </line>
     <line>
-      <![CDATA[Test PASSED: verifyBasicAuth]]>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[Initializing Basic auth]]>
+    </line>
+    <line>
+      <![CDATA[Navigating with Basic Auth credentials]]>
     </line>
     <line>
       <![CDATA[Browser is closing]]>
@@ -131,9 +266,6 @@
       <![CDATA[Navigating with Basic Auth credentials]]>
     </line>
     <line>
-      <![CDATA[Test PASSED: verifyBasicAuth]]>
-    </line>
-    <line>
       <![CDATA[Browser is closing]]>
     </line>
     <line>
@@ -150,30 +282,6 @@
     </line>
     <line>
       <![CDATA[Navigating with Basic Auth credentials]]>
-    </line>
-    <line>
-      <![CDATA[Test PASSED: verifyBasicAuth]]>
-    </line>
-    <line>
-      <![CDATA[Browser is closing]]>
-    </line>
-    <line>
-      <![CDATA[Browser is opening]]>
-    </line>
-    <line>
-      <![CDATA[login test started]]>
-    </line>
-    <line>
-      <![CDATA[chrome]]>
-    </line>
-    <line>
-      <![CDATA[Initializing Basic auth]]>
-    </line>
-    <line>
-      <![CDATA[Navigating with Basic Auth credentials]]>
-    </line>
-    <line>
-      <![CDATA[Test PASSED: verifyBasicAuth]]>
     </line>
     <line>
       <![CDATA[Browser is closing]]>
@@ -189,9 +297,6 @@
     </line>
     <line>
       <![CDATA[Initializing PerformancePage]]>
-    </line>
-    <line>
-      <![CDATA[Test PASSED: verifyPageLoadsUnder3Seconds]]>
     </line>
     <line>
       <![CDATA[Browser is closing]]>
@@ -215,9 +320,6 @@
       <![CDATA[Checking the Broken state of the images]]>
     </line>
     <line>
-      <![CDATA[Test PASSED: verifyBrokenImages]]>
-    </line>
-    <line>
       <![CDATA[Browser is closing]]>
     </line>
     <line>
@@ -231,9 +333,6 @@
     </line>
     <line>
       <![CDATA[Initializing PerformancePage]]>
-    </line>
-    <line>
-      <![CDATA[Test PASSED: verifyPageLoadsUnder3Seconds]]>
     </line>
     <line>
       <![CDATA[Browser is closing]]>
@@ -257,9 +356,6 @@
       <![CDATA[CheckBox is selected at Index: 0]]>
     </line>
     <line>
-      <![CDATA[Test PASSED: verifyCheckBoxes]]>
-    </line>
-    <line>
       <![CDATA[Browser is closing]]>
     </line>
     <line>
@@ -273,9 +369,6 @@
     </line>
     <line>
       <![CDATA[Initializing PerformancePage]]>
-    </line>
-    <line>
-      <![CDATA[Test PASSED: verifyPageLoadsUnder3Seconds]]>
     </line>
     <line>
       <![CDATA[Browser is closing]]>
@@ -299,9 +392,6 @@
       <![CDATA[Started Handling the alert text]]>
     </line>
     <line>
-      <![CDATA[Test PASSED: verifyContextMenuAlert]]>
-    </line>
-    <line>
       <![CDATA[Browser is closing]]>
     </line>
     <line>
@@ -318,9 +408,6 @@
     </line>
     <line>
       <![CDATA[Performing Drag and Drop A to B]]>
-    </line>
-    <line>
-      <![CDATA[Test PASSED: verifyDragAndDrop]]>
     </line>
     <line>
       <![CDATA[Browser is closing]]>
@@ -344,9 +431,6 @@
       <![CDATA[Selecting the option from drop down]]>
     </line>
     <line>
-      <![CDATA[Test PASSED: verifyDropDown]]>
-    </line>
-    <line>
       <![CDATA[Browser is closing]]>
     </line>
     <line>
@@ -360,9 +444,6 @@
     </line>
     <line>
       <![CDATA[Initializing PerformancePage]]>
-    </line>
-    <line>
-      <![CDATA[Test PASSED: verifyPageLoadsUnder3Seconds]]>
     </line>
     <line>
       <![CDATA[Browser is closing]]>
@@ -392,9 +473,6 @@
       <![CDATA[Start clicking on Diabled button]]>
     </line>
     <line>
-      <![CDATA[Test PASSED: verifyDynamicControls]]>
-    </line>
-    <line>
       <![CDATA[Browser is closing]]>
     </line>
     <line>
@@ -417,9 +495,6 @@
     </line>
     <line>
       <![CDATA[Waiting for finish text]]>
-    </line>
-    <line>
-      <![CDATA[Test PASSED: verifyDynamicLoadingFlow]]>
     </line>
     <line>
       <![CDATA[Browser is closing]]>
@@ -446,9 +521,6 @@
       <![CDATA[Checking if modal popup is closed]]>
     </line>
     <line>
-      <![CDATA[Test PASSED: verifyEntryAdPopup]]>
-    </line>
-    <line>
       <![CDATA[Browser is closing]]>
     </line>
     <line>
@@ -462,9 +534,6 @@
     </line>
     <line>
       <![CDATA[Initializing TyposPage]]>
-    </line>
-    <line>
-      <![CDATA[Test PASSED: verifyNoTypoInParagraph]]>
     </line>
     <line>
       <![CDATA[Browser is closing]]>
@@ -491,9 +560,6 @@
       <![CDATA[Uploaded file name: Sample.txt.txt]]>
     </line>
     <line>
-      <![CDATA[Test PASSED: verifyFileUpload]]>
-    </line>
-    <line>
       <![CDATA[Browser is closing]]>
     </line>
     <line>
@@ -507,9 +573,6 @@
     </line>
     <line>
       <![CDATA[Initializing PerformancePage]]>
-    </line>
-    <line>
-      <![CDATA[Test PASSED: verifyPageLoadsUnder3Seconds]]>
     </line>
     <line>
       <![CDATA[Browser is closing]]>
@@ -533,9 +596,6 @@
       <![CDATA[Clicking file download link]]>
     </line>
     <line>
-      <![CDATA[Test PASSED: verifyFileDownloadLink]]>
-    </line>
-    <line>
       <![CDATA[Browser is closing]]>
     </line>
     <line>
@@ -549,9 +609,6 @@
     </line>
     <line>
       <![CDATA[Initializing PerformancePage]]>
-    </line>
-    <line>
-      <![CDATA[Test PASSED: verifyPageLoadsUnder3Seconds]]>
     </line>
     <line>
       <![CDATA[Browser is closing]]>
@@ -581,9 +638,6 @@
       <![CDATA[Checking if floating menu is displayed]]>
     </line>
     <line>
-      <![CDATA[Test PASSED: verifyFloatingMenuStaysVisible]]>
-    </line>
-    <line>
       <![CDATA[Browser is closing]]>
     </line>
     <line>
@@ -602,7 +656,19 @@
       <![CDATA[Initialization of LoginForm Page Authentication]]>
     </line>
     <line>
-      <![CDATA[Test PASSED: verifyLoginCredentials]]>
+      <![CDATA[Browser is closing]]>
+    </line>
+    <line>
+      <![CDATA[Browser is opening]]>
+    </line>
+    <line>
+      <![CDATA[login test started]]>
+    </line>
+    <line>
+      <![CDATA[firefox]]>
+    </line>
+    <line>
+      <![CDATA[Initialization of LoginForm Page Authentication]]>
     </line>
     <line>
       <![CDATA[Browser is closing]]>
@@ -620,9 +686,6 @@
       <![CDATA[Initialization of LoginForm Page Authentication]]>
     </line>
     <line>
-      <![CDATA[Test PASSED: verifyLoginCredentials]]>
-    </line>
-    <line>
       <![CDATA[Browser is closing]]>
     </line>
     <line>
@@ -636,27 +699,6 @@
     </line>
     <line>
       <![CDATA[Initialization of LoginForm Page Authentication]]>
-    </line>
-    <line>
-      <![CDATA[Test PASSED: verifyLoginCredentials]]>
-    </line>
-    <line>
-      <![CDATA[Browser is closing]]>
-    </line>
-    <line>
-      <![CDATA[Browser is opening]]>
-    </line>
-    <line>
-      <![CDATA[login test started]]>
-    </line>
-    <line>
-      <![CDATA[firefox]]>
-    </line>
-    <line>
-      <![CDATA[Initialization of LoginForm Page Authentication]]>
-    </line>
-    <line>
-      <![CDATA[Test PASSED: verifyLoginCredentials]]>
     </line>
     <line>
       <![CDATA[Browser is closing]]>
@@ -678,9 +720,6 @@
     </line>
     <line>
       <![CDATA[Moved slider using Actions successfully]]>
-    </line>
-    <line>
-      <![CDATA[Test PASSED: verifySliderMovesUsingActions]]>
     </line>
     <line>
       <![CDATA[Browser is closing]]>
@@ -707,9 +746,6 @@
       <![CDATA[Hovering over user index: 2]]>
     </line>
     <line>
-      <![CDATA[Test PASSED: verifyHoverUserProfile]]>
-    </line>
-    <line>
       <![CDATA[Browser is closing]]>
     </line>
     <line>
@@ -723,9 +759,6 @@
     </line>
     <line>
       <![CDATA[Initializing PerformancePage]]>
-    </line>
-    <line>
-      <![CDATA[Test PASSED: verifyPageLoadsUnder3Seconds]]>
     </line>
     <line>
       <![CDATA[Browser is closing]]>
@@ -755,9 +788,6 @@
       <![CDATA[Scrolling down the page]]>
     </line>
     <line>
-      <![CDATA[Test PASSED: verifyInfiniteScrollLoadsMoreContent]]>
-    </line>
-    <line>
       <![CDATA[Browser is closing]]>
     </line>
     <line>
@@ -771,9 +801,6 @@
     </line>
     <line>
       <![CDATA[Initializing PerformancePage]]>
-    </line>
-    <line>
-      <![CDATA[Test PASSED: verifyPageLoadsUnder3Seconds]]>
     </line>
     <line>
       <![CDATA[Browser is closing]]>
@@ -797,9 +824,6 @@
       <![CDATA[Clicking Status Code: 200]]>
     </line>
     <line>
-      <![CDATA[Test PASSED: verifyStatusCodeMessage]]>
-    </line>
-    <line>
       <![CDATA[Browser is closing]]>
     </line>
     <line>
@@ -816,9 +840,6 @@
     </line>
     <line>
       <![CDATA[Clicking Status Code: 301]]>
-    </line>
-    <line>
-      <![CDATA[Test PASSED: verifyStatusCodeMessage]]>
     </line>
     <line>
       <![CDATA[Browser is closing]]>
@@ -839,9 +860,6 @@
       <![CDATA[Clicking Status Code: 404]]>
     </line>
     <line>
-      <![CDATA[Test PASSED: verifyStatusCodeMessage]]>
-    </line>
-    <line>
       <![CDATA[Browser is closing]]>
     </line>
     <line>
@@ -860,22 +878,19 @@
       <![CDATA[Clicking Status Code: 500]]>
     </line>
     <line>
-      <![CDATA[Test PASSED: verifyStatusCodeMessage]]>
-    </line>
-    <line>
       <![CDATA[Browser is closing]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-01-29T14:57:54 IST" name="herokuapp Suite" finished-at="2026-01-29T15:04:46 IST" duration-ms="412140">
+  <suite started-at="2026-02-08T20:18:36 IST" name="herokuapp Suite" finished-at="2026-02-08T20:26:50 IST" duration-ms="494098">
     <groups>
     </groups>
-    <test started-at="2026-01-29T14:57:54 IST" name="heroku chrome test" finished-at="2026-01-29T15:00:27 IST" duration-ms="153683">
+    <test started-at="2026-02-08T20:18:36 IST" name="heroku chrome test" finished-at="2026-02-08T20:21:21 IST" duration-ms="165290">
       <class name="com.milestone.four.herokuapp.pagestest.FT06_ContextMenuTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT06_ContextMenuTest@3af61daf]" started-at="2026-01-29T14:59:23 IST" name="beforeClass" finished-at="2026-01-29T14:59:23 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT06_ContextMenuTest@773ccdb7]" started-at="2026-02-08T20:20:12 IST" name="beforeClass" finished-at="2026-02-08T20:20:12 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT06_ContextMenuTest@3af61daf]" started-at="2026-01-29T14:59:23 IST" name="beforeMethod" finished-at="2026-01-29T14:59:29 IST" duration-ms="5685" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT06_ContextMenuTest@773ccdb7]" started-at="2026-02-08T20:20:12 IST" name="beforeMethod" finished-at="2026-02-08T20:20:17 IST" duration-ms="5178" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -895,7 +910,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyContextMenuAlert()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT06_ContextMenuTest@3af61daf]" started-at="2026-01-29T14:59:29 IST" name="verifyContextMenuAlert" finished-at="2026-01-29T14:59:30 IST" duration-ms="610" status="PASS">
+        <test-method signature="verifyContextMenuAlert()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT06_ContextMenuTest@773ccdb7]" started-at="2026-02-08T20:20:17 IST" name="verifyContextMenuAlert" finished-at="2026-02-08T20:20:18 IST" duration-ms="755" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initialization of the ContextMenuPage]]>
@@ -906,29 +921,26 @@
             <line>
               <![CDATA[Started Handling the alert text]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyContextMenuAlert]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyContextMenuAlert -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT06_ContextMenuTest@3af61daf]" started-at="2026-01-29T14:59:30 IST" name="afterMethod" finished-at="2026-01-29T14:59:30 IST" duration-ms="128" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT06_ContextMenuTest@773ccdb7]" started-at="2026-02-08T20:20:19 IST" name="afterMethod" finished-at="2026-02-08T20:20:19 IST" duration-ms="242" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT06_ContextMenuTest@3af61daf]" started-at="2026-01-29T14:59:30 IST" name="afterClass" finished-at="2026-01-29T14:59:30 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT06_ContextMenuTest@773ccdb7]" started-at="2026-02-08T20:20:19 IST" name="afterClass" finished-at="2026-02-08T20:20:19 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.milestone.four.herokuapp.pagestest.FT06_ContextMenuTest -->
       <class name="com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest@108764e5]" started-at="2026-01-29T14:59:11 IST" name="beforeClass" finished-at="2026-01-29T14:59:11 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest@394c3928]" started-at="2026-02-08T20:20:01 IST" name="beforeClass" finished-at="2026-02-08T20:20:01 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest@108764e5]" started-at="2026-01-29T14:59:11 IST" name="beforeMethod" finished-at="2026-01-29T14:59:16 IST" duration-ms="5604" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest@394c3928]" started-at="2026-02-08T20:20:01 IST" name="beforeMethod" finished-at="2026-02-08T20:20:06 IST" duration-ms="4970" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -948,7 +960,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyCheckBoxes()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest@108764e5]" started-at="2026-01-29T14:59:16 IST" name="verifyCheckBoxes" finished-at="2026-01-29T14:59:17 IST" duration-ms="522" status="PASS">
+        <test-method signature="verifyCheckBoxes()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest@394c3928]" started-at="2026-02-08T20:20:06 IST" name="verifyCheckBoxes" finished-at="2026-02-08T20:20:06 IST" duration-ms="714" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initialization of CheckBox Method]]>
@@ -959,19 +971,16 @@
             <line>
               <![CDATA[CheckBox is selected at Index: 0]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyCheckBoxes]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyCheckBoxes -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest@108764e5]" started-at="2026-01-29T14:59:17 IST" name="afterMethod" finished-at="2026-01-29T14:59:17 IST" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest@394c3928]" started-at="2026-02-08T20:20:06 IST" name="afterMethod" finished-at="2026-02-08T20:20:07 IST" duration-ms="236" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest@108764e5]" started-at="2026-01-29T14:59:17 IST" name="beforeMethod" finished-at="2026-01-29T14:59:23 IST" duration-ms="5573" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest@394c3928]" started-at="2026-02-08T20:20:07 IST" name="beforeMethod" finished-at="2026-02-08T20:20:12 IST" duration-ms="4843" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -991,34 +1000,31 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyPageLoadsUnder3Seconds()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest@108764e5]" started-at="2026-01-29T14:59:23 IST" name="verifyPageLoadsUnder3Seconds" finished-at="2026-01-29T14:59:23 IST" duration-ms="356" status="PASS">
+        <test-method signature="verifyPageLoadsUnder3Seconds()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest@394c3928]" started-at="2026-02-08T20:20:12 IST" name="verifyPageLoadsUnder3Seconds" finished-at="2026-02-08T20:20:12 IST" duration-ms="392" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing PerformancePage]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyPageLoadsUnder3Seconds]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyPageLoadsUnder3Seconds -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest@108764e5]" started-at="2026-01-29T14:59:23 IST" name="afterMethod" finished-at="2026-01-29T14:59:23 IST" duration-ms="133" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest@394c3928]" started-at="2026-02-08T20:20:12 IST" name="afterMethod" finished-at="2026-02-08T20:20:12 IST" duration-ms="216" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest@108764e5]" started-at="2026-01-29T14:59:23 IST" name="afterClass" finished-at="2026-01-29T14:59:23 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest@394c3928]" started-at="2026-02-08T20:20:12 IST" name="afterClass" finished-at="2026-02-08T20:20:12 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.milestone.four.herokuapp.pagestest.FT05_CheckBoxTest -->
       <class name="com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@2dd800e8]" started-at="2026-01-29T14:58:25 IST" name="beforeClass" finished-at="2026-01-29T14:58:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@313357f1]" started-at="2026-02-08T20:19:16 IST" name="beforeClass" finished-at="2026-02-08T20:19:16 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@2dd800e8]" started-at="2026-01-29T14:58:25 IST" name="beforeMethod" finished-at="2026-01-29T14:58:31 IST" duration-ms="5815" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@313357f1]" started-at="2026-02-08T20:19:16 IST" name="beforeMethod" finished-at="2026-02-08T20:19:20 IST" duration-ms="4969" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1038,7 +1044,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyBasicAuth(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@2dd800e8]" started-at="2026-01-29T14:58:31 IST" name="verifyBasicAuth" data-provider="BasicAuthData" finished-at="2026-01-29T14:58:32 IST" duration-ms="1218" status="PASS">
+        <test-method signature="verifyBasicAuth(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@313357f1]" started-at="2026-02-08T20:19:20 IST" name="verifyBasicAuth" data-provider="BasicAuthData" finished-at="2026-02-08T20:19:22 IST" duration-ms="1471" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1066,19 +1072,16 @@
             <line>
               <![CDATA[Validating success message]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyBasicAuth]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyBasicAuth -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@2dd800e8]" started-at="2026-01-29T14:58:32 IST" name="afterMethod" finished-at="2026-01-29T14:58:32 IST" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@313357f1]" started-at="2026-02-08T20:19:22 IST" name="afterMethod" finished-at="2026-02-08T20:19:22 IST" duration-ms="233" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@2dd800e8]" started-at="2026-01-29T14:58:32 IST" name="beforeMethod" finished-at="2026-01-29T14:58:38 IST" duration-ms="5595" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@313357f1]" started-at="2026-02-08T20:19:22 IST" name="beforeMethod" finished-at="2026-02-08T20:19:28 IST" duration-ms="5244" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1098,7 +1101,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyBasicAuth(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@2dd800e8]" started-at="2026-01-29T14:58:38 IST" name="verifyBasicAuth" data-provider="BasicAuthData" finished-at="2026-01-29T14:58:39 IST" duration-ms="1173" status="PASS">
+        <test-method signature="verifyBasicAuth(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@313357f1]" started-at="2026-02-08T20:19:28 IST" name="verifyBasicAuth" data-provider="BasicAuthData" finished-at="2026-02-08T20:19:29 IST" duration-ms="1231" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1123,19 +1126,16 @@
             <line>
               <![CDATA[Navigating with Basic Auth credentials]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyBasicAuth]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyBasicAuth -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@2dd800e8]" started-at="2026-01-29T14:58:39 IST" name="afterMethod" finished-at="2026-01-29T14:58:39 IST" duration-ms="143" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@313357f1]" started-at="2026-02-08T20:19:29 IST" name="afterMethod" finished-at="2026-02-08T20:19:29 IST" duration-ms="237" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@2dd800e8]" started-at="2026-01-29T14:58:39 IST" name="beforeMethod" finished-at="2026-01-29T14:58:45 IST" duration-ms="5837" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@313357f1]" started-at="2026-02-08T20:19:29 IST" name="beforeMethod" finished-at="2026-02-08T20:19:34 IST" duration-ms="5061" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1155,7 +1155,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyBasicAuth(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@2dd800e8]" started-at="2026-01-29T14:58:45 IST" name="verifyBasicAuth" data-provider="BasicAuthData" finished-at="2026-01-29T14:58:46 IST" duration-ms="1137" status="PASS">
+        <test-method signature="verifyBasicAuth(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@313357f1]" started-at="2026-02-08T20:19:34 IST" name="verifyBasicAuth" data-provider="BasicAuthData" finished-at="2026-02-08T20:19:36 IST" duration-ms="1327" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1180,19 +1180,16 @@
             <line>
               <![CDATA[Navigating with Basic Auth credentials]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyBasicAuth]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyBasicAuth -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@2dd800e8]" started-at="2026-01-29T14:58:46 IST" name="afterMethod" finished-at="2026-01-29T14:58:46 IST" duration-ms="144" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@313357f1]" started-at="2026-02-08T20:19:36 IST" name="afterMethod" finished-at="2026-02-08T20:19:36 IST" duration-ms="217" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@2dd800e8]" started-at="2026-01-29T14:58:46 IST" name="beforeMethod" finished-at="2026-01-29T14:58:51 IST" duration-ms="4736" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@313357f1]" started-at="2026-02-08T20:19:36 IST" name="beforeMethod" finished-at="2026-02-08T20:19:41 IST" duration-ms="4950" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1212,7 +1209,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyBasicAuth(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@2dd800e8]" started-at="2026-01-29T14:58:51 IST" name="verifyBasicAuth" data-provider="BasicAuthData" finished-at="2026-01-29T14:58:52 IST" duration-ms="1105" status="PASS">
+        <test-method signature="verifyBasicAuth(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@313357f1]" started-at="2026-02-08T20:19:41 IST" name="verifyBasicAuth" data-provider="BasicAuthData" finished-at="2026-02-08T20:19:42 IST" duration-ms="1249" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1237,19 +1234,16 @@
             <line>
               <![CDATA[Navigating with Basic Auth credentials]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyBasicAuth]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyBasicAuth -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@2dd800e8]" started-at="2026-01-29T14:58:52 IST" name="afterMethod" finished-at="2026-01-29T14:58:52 IST" duration-ms="134" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@313357f1]" started-at="2026-02-08T20:19:42 IST" name="afterMethod" finished-at="2026-02-08T20:19:43 IST" duration-ms="228" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@2dd800e8]" started-at="2026-01-29T14:58:52 IST" name="beforeMethod" finished-at="2026-01-29T14:58:57 IST" duration-ms="4814" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@313357f1]" started-at="2026-02-08T20:19:43 IST" name="beforeMethod" finished-at="2026-02-08T20:19:47 IST" duration-ms="4605" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1269,34 +1263,31 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyPageLoadsUnder3Seconds()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@2dd800e8]" started-at="2026-01-29T14:58:57 IST" name="verifyPageLoadsUnder3Seconds" finished-at="2026-01-29T14:58:58 IST" duration-ms="351" status="PASS">
+        <test-method signature="verifyPageLoadsUnder3Seconds()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@313357f1]" started-at="2026-02-08T20:19:47 IST" name="verifyPageLoadsUnder3Seconds" finished-at="2026-02-08T20:19:48 IST" duration-ms="390" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing PerformancePage]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyPageLoadsUnder3Seconds]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyPageLoadsUnder3Seconds -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@2dd800e8]" started-at="2026-01-29T14:58:58 IST" name="afterMethod" finished-at="2026-01-29T14:58:58 IST" duration-ms="141" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@313357f1]" started-at="2026-02-08T20:19:48 IST" name="afterMethod" finished-at="2026-02-08T20:19:48 IST" duration-ms="222" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@2dd800e8]" started-at="2026-01-29T14:58:58 IST" name="afterClass" finished-at="2026-01-29T14:58:58 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest@313357f1]" started-at="2026-02-08T20:19:48 IST" name="afterClass" finished-at="2026-02-08T20:19:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.milestone.four.herokuapp.pagestest.FT03_BasicAuthTest -->
       <class name="com.milestone.four.herokuapp.pagestest.FT07_DragDropTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT07_DragDropTest@57c49559]" started-at="2026-01-29T14:59:30 IST" name="beforeClass" finished-at="2026-01-29T14:59:30 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT07_DragDropTest@5c9b807e]" started-at="2026-02-08T20:20:19 IST" name="beforeClass" finished-at="2026-02-08T20:20:19 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT07_DragDropTest@57c49559]" started-at="2026-01-29T14:59:30 IST" name="beforeMethod" finished-at="2026-01-29T14:59:36 IST" duration-ms="5593" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT07_DragDropTest@5c9b807e]" started-at="2026-02-08T20:20:19 IST" name="beforeMethod" finished-at="2026-02-08T20:20:24 IST" duration-ms="4984" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1316,7 +1307,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyDragAndDrop()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT07_DragDropTest@57c49559]" started-at="2026-01-29T14:59:36 IST" name="verifyDragAndDrop" finished-at="2026-01-29T14:59:36 IST" duration-ms="796" status="PASS">
+        <test-method signature="verifyDragAndDrop()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT07_DragDropTest@5c9b807e]" started-at="2026-02-08T20:20:24 IST" name="verifyDragAndDrop" finished-at="2026-02-08T20:20:25 IST" duration-ms="938" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing DragDropPage]]>
@@ -1324,25 +1315,26 @@
             <line>
               <![CDATA[Performing Drag and Drop A to B]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyDragAndDrop]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyDragAndDrop -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT07_DragDropTest@57c49559]" started-at="2026-01-29T14:59:36 IST" name="afterMethod" finished-at="2026-01-29T14:59:37 IST" duration-ms="130" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT07_DragDropTest@5c9b807e]" started-at="2026-02-08T20:20:25 IST" name="afterMethod" finished-at="2026-02-08T20:20:25 IST" duration-ms="238" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT07_DragDropTest@57c49559]" started-at="2026-01-29T14:59:37 IST" name="afterClass" finished-at="2026-01-29T14:59:37 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT07_DragDropTest@5c9b807e]" started-at="2026-02-08T20:20:25 IST" name="afterClass" finished-at="2026-02-08T20:20:25 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.milestone.four.herokuapp.pagestest.FT07_DragDropTest -->
       <class name="com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest@4255b188]" started-at="2026-01-29T14:58:58 IST" name="beforeMethod" finished-at="2026-01-29T14:59:03 IST" duration-ms="5351" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest@5e1911c9]" started-at="2026-02-08T20:19:48 IST" name="beforeClass" finished-at="2026-02-08T20:19:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest@5e1911c9]" started-at="2026-02-08T20:19:48 IST" name="beforeMethod" finished-at="2026-02-08T20:19:53 IST" duration-ms="4851" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1362,11 +1354,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest@4255b188]" started-at="2026-01-29T14:58:58 IST" name="beforeClass" finished-at="2026-01-29T14:58:58 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="verifyBrokenImages()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest@4255b188]" started-at="2026-01-29T14:59:03 IST" name="verifyBrokenImages" finished-at="2026-01-29T14:59:04 IST" duration-ms="825" status="PASS">
+        <test-method signature="verifyBrokenImages()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest@5e1911c9]" started-at="2026-02-08T20:19:53 IST" name="verifyBrokenImages" finished-at="2026-02-08T20:19:54 IST" duration-ms="1023" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initialization of Broken Image Test]]>
@@ -1377,19 +1365,16 @@
             <line>
               <![CDATA[Checking the Broken state of the images]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyBrokenImages]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyBrokenImages -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest@4255b188]" started-at="2026-01-29T14:59:04 IST" name="afterMethod" finished-at="2026-01-29T14:59:04 IST" duration-ms="119" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest@5e1911c9]" started-at="2026-02-08T20:19:54 IST" name="afterMethod" finished-at="2026-02-08T20:19:54 IST" duration-ms="241" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest@4255b188]" started-at="2026-01-29T14:59:04 IST" name="beforeMethod" finished-at="2026-01-29T14:59:10 IST" duration-ms="5566" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest@5e1911c9]" started-at="2026-02-08T20:19:54 IST" name="beforeMethod" finished-at="2026-02-08T20:19:59 IST" duration-ms="5220" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1409,30 +1394,27 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyPageLoadsUnder3Seconds()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest@4255b188]" started-at="2026-01-29T14:59:10 IST" name="verifyPageLoadsUnder3Seconds" finished-at="2026-01-29T14:59:11 IST" duration-ms="718" status="PASS">
+        <test-method signature="verifyPageLoadsUnder3Seconds()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest@5e1911c9]" started-at="2026-02-08T20:19:59 IST" name="verifyPageLoadsUnder3Seconds" finished-at="2026-02-08T20:20:00 IST" duration-ms="720" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing PerformancePage]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyPageLoadsUnder3Seconds]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyPageLoadsUnder3Seconds -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest@4255b188]" started-at="2026-01-29T14:59:11 IST" name="afterMethod" finished-at="2026-01-29T14:59:11 IST" duration-ms="131" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest@5e1911c9]" started-at="2026-02-08T20:20:00 IST" name="afterMethod" finished-at="2026-02-08T20:20:01 IST" duration-ms="253" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest@4255b188]" started-at="2026-01-29T14:59:11 IST" name="afterClass" finished-at="2026-01-29T14:59:11 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest@5e1911c9]" started-at="2026-02-08T20:20:01 IST" name="afterClass" finished-at="2026-02-08T20:20:01 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.milestone.four.herokuapp.pagestest.FT04_BrokenImageTest -->
       <class name="com.milestone.four.herokuapp.pagestest.FT08_DropDownTest">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT08_DropDownTest@3872b7d8]" started-at="2026-01-29T14:59:37 IST" name="beforeMethod" finished-at="2026-01-29T14:59:42 IST" duration-ms="5470" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT08_DropDownTest@4a9a557d]" started-at="2026-02-08T20:20:25 IST" name="beforeMethod" finished-at="2026-02-08T20:20:30 IST" duration-ms="5137" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1452,11 +1434,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT08_DropDownTest@3872b7d8]" started-at="2026-01-29T14:59:37 IST" name="beforeClass" finished-at="2026-01-29T14:59:37 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT08_DropDownTest@4a9a557d]" started-at="2026-02-08T20:20:25 IST" name="beforeClass" finished-at="2026-02-08T20:20:25 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="verifyDropDown()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT08_DropDownTest@3872b7d8]" started-at="2026-01-29T14:59:42 IST" name="verifyDropDown" finished-at="2026-01-29T14:59:43 IST" duration-ms="764" status="PASS">
+        <test-method signature="verifyDropDown()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT08_DropDownTest@4a9a557d]" started-at="2026-02-08T20:20:30 IST" name="verifyDropDown" finished-at="2026-02-08T20:20:31 IST" duration-ms="1127" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initialization of Drop-Down Page]]>
@@ -1467,19 +1449,16 @@
             <line>
               <![CDATA[Selecting the option from drop down]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyDropDown]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyDropDown -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT08_DropDownTest@3872b7d8]" started-at="2026-01-29T14:59:43 IST" name="afterMethod" finished-at="2026-01-29T14:59:43 IST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT08_DropDownTest@4a9a557d]" started-at="2026-02-08T20:20:32 IST" name="afterMethod" finished-at="2026-02-08T20:20:32 IST" duration-ms="215" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT08_DropDownTest@3872b7d8]" started-at="2026-01-29T14:59:43 IST" name="beforeMethod" finished-at="2026-01-29T14:59:49 IST" duration-ms="5715" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT08_DropDownTest@4a9a557d]" started-at="2026-02-08T20:20:32 IST" name="beforeMethod" finished-at="2026-02-08T20:20:37 IST" duration-ms="5144" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1499,34 +1478,31 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyPageLoadsUnder3Seconds()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT08_DropDownTest@3872b7d8]" started-at="2026-01-29T14:59:49 IST" name="verifyPageLoadsUnder3Seconds" finished-at="2026-01-29T14:59:49 IST" duration-ms="366" status="PASS">
+        <test-method signature="verifyPageLoadsUnder3Seconds()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT08_DropDownTest@4a9a557d]" started-at="2026-02-08T20:20:37 IST" name="verifyPageLoadsUnder3Seconds" finished-at="2026-02-08T20:20:37 IST" duration-ms="399" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing PerformancePage]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyPageLoadsUnder3Seconds]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyPageLoadsUnder3Seconds -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT08_DropDownTest@3872b7d8]" started-at="2026-01-29T14:59:49 IST" name="afterMethod" finished-at="2026-01-29T14:59:49 IST" duration-ms="137" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT08_DropDownTest@4a9a557d]" started-at="2026-02-08T20:20:38 IST" name="afterMethod" finished-at="2026-02-08T20:20:38 IST" duration-ms="239" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT08_DropDownTest@3872b7d8]" started-at="2026-01-29T14:59:49 IST" name="afterClass" finished-at="2026-01-29T14:59:49 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT08_DropDownTest@4a9a557d]" started-at="2026-02-08T20:20:38 IST" name="afterClass" finished-at="2026-02-08T20:20:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.milestone.four.herokuapp.pagestest.FT08_DropDownTest -->
       <class name="com.milestone.four.herokuapp.pagestest.FT10_DynamicLoadingTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT10_DynamicLoadingTest@19e820ca]" started-at="2026-01-29T15:00:15 IST" name="beforeClass" finished-at="2026-01-29T15:00:15 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT10_DynamicLoadingTest@30786f5]" started-at="2026-02-08T20:21:04 IST" name="beforeClass" finished-at="2026-02-08T20:21:04 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT10_DynamicLoadingTest@19e820ca]" started-at="2026-01-29T15:00:15 IST" name="beforeMethod" finished-at="2026-01-29T15:00:21 IST" duration-ms="5580" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT10_DynamicLoadingTest@30786f5]" started-at="2026-02-08T20:21:04 IST" name="beforeMethod" finished-at="2026-02-08T20:21:14 IST" duration-ms="10478" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1546,7 +1522,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyDynamicLoadingFlow()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT10_DynamicLoadingTest@19e820ca]" started-at="2026-01-29T15:00:21 IST" name="verifyDynamicLoadingFlow" finished-at="2026-01-29T15:00:27 IST" duration-ms="6227" status="PASS">
+        <test-method signature="verifyDynamicLoadingFlow()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT10_DynamicLoadingTest@30786f5]" started-at="2026-02-08T20:21:14 IST" name="verifyDynamicLoadingFlow" finished-at="2026-02-08T20:21:21 IST" duration-ms="6601" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing DynamicLoadingPage]]>
@@ -1560,29 +1536,26 @@
             <line>
               <![CDATA[Waiting for finish text]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyDynamicLoadingFlow]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyDynamicLoadingFlow -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT10_DynamicLoadingTest@19e820ca]" started-at="2026-01-29T15:00:27 IST" name="afterMethod" finished-at="2026-01-29T15:00:27 IST" duration-ms="136" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT10_DynamicLoadingTest@30786f5]" started-at="2026-02-08T20:21:21 IST" name="afterMethod" finished-at="2026-02-08T20:21:21 IST" duration-ms="233" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT10_DynamicLoadingTest@19e820ca]" started-at="2026-01-29T15:00:27 IST" name="afterClass" finished-at="2026-01-29T15:00:27 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT10_DynamicLoadingTest@30786f5]" started-at="2026-02-08T20:21:21 IST" name="afterClass" finished-at="2026-02-08T20:21:21 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.milestone.four.herokuapp.pagestest.FT10_DynamicLoadingTest -->
       <class name="com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest@82d99a0]" started-at="2026-01-29T14:57:54 IST" name="beforeClass" finished-at="2026-01-29T14:57:54 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest@3b7b8933]" started-at="2026-02-08T20:18:36 IST" name="beforeClass" finished-at="2026-02-08T20:18:36 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest@82d99a0]" started-at="2026-01-29T14:57:54 IST" name="beforeMethod" finished-at="2026-01-29T14:58:00 IST" duration-ms="6079" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest@3b7b8933]" started-at="2026-02-08T20:18:36 IST" name="beforeMethod" finished-at="2026-02-08T20:18:50 IST" duration-ms="14005" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1602,7 +1575,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyHeadingText()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest@82d99a0]" started-at="2026-01-29T14:58:00 IST" name="verifyHeadingText" finished-at="2026-01-29T14:58:00 IST" duration-ms="504" status="PASS">
+        <test-method signature="verifyHeadingText()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest@3b7b8933]" started-at="2026-02-08T20:18:50 IST" name="verifyHeadingText" finished-at="2026-02-08T20:18:50 IST" duration-ms="610" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing ABtesting]]>
@@ -1610,19 +1583,16 @@
             <line>
               <![CDATA[fetching heading text for abtesting]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyHeadingText]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyHeadingText -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest@82d99a0]" started-at="2026-01-29T14:58:00 IST" name="afterMethod" finished-at="2026-01-29T14:58:00 IST" duration-ms="144" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest@3b7b8933]" started-at="2026-02-08T20:18:51 IST" name="afterMethod" finished-at="2026-02-08T20:18:51 IST" duration-ms="336" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest@82d99a0]" started-at="2026-01-29T14:58:00 IST" name="beforeMethod" finished-at="2026-01-29T14:58:06 IST" duration-ms="5087" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest@3b7b8933]" started-at="2026-02-08T20:18:51 IST" name="beforeMethod" finished-at="2026-02-08T20:18:56 IST" duration-ms="5222" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1642,30 +1612,31 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyPageLoadsUnder3Seconds()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest@82d99a0]" started-at="2026-01-29T14:58:06 IST" name="verifyPageLoadsUnder3Seconds" finished-at="2026-01-29T14:58:06 IST" duration-ms="362" status="PASS">
+        <test-method signature="verifyPageLoadsUnder3Seconds()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest@3b7b8933]" started-at="2026-02-08T20:18:56 IST" name="verifyPageLoadsUnder3Seconds" finished-at="2026-02-08T20:18:57 IST" duration-ms="414" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing PerformancePage]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyPageLoadsUnder3Seconds]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyPageLoadsUnder3Seconds -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest@82d99a0]" started-at="2026-01-29T14:58:06 IST" name="afterMethod" finished-at="2026-01-29T14:58:06 IST" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest@3b7b8933]" started-at="2026-02-08T20:18:57 IST" name="afterMethod" finished-at="2026-02-08T20:18:57 IST" duration-ms="229" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest@82d99a0]" started-at="2026-01-29T14:58:06 IST" name="afterClass" finished-at="2026-01-29T14:58:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest@3b7b8933]" started-at="2026-02-08T20:18:57 IST" name="afterClass" finished-at="2026-02-08T20:18:57 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.milestone.four.herokuapp.pagestest.FT01_ABTestingTest -->
       <class name="com.milestone.four.herokuapp.pagestest.FT09_DynamicControlTest">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT09_DynamicControlTest@13f95c7f]" started-at="2026-01-29T14:59:49 IST" name="beforeMethod" finished-at="2026-01-29T14:59:55 IST" duration-ms="5742" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT09_DynamicControlTest@1247a07f]" started-at="2026-02-08T20:20:38 IST" name="beforeClass" finished-at="2026-02-08T20:20:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT09_DynamicControlTest@1247a07f]" started-at="2026-02-08T20:20:38 IST" name="beforeMethod" finished-at="2026-02-08T20:20:43 IST" duration-ms="5133" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1685,11 +1656,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT09_DynamicControlTest@13f95c7f]" started-at="2026-01-29T14:59:49 IST" name="beforeClass" finished-at="2026-01-29T14:59:49 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="verifyDynamicControls()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT09_DynamicControlTest@13f95c7f]" started-at="2026-01-29T14:59:55 IST" name="verifyDynamicControls" finished-at="2026-01-29T15:00:15 IST" duration-ms="19707" status="PASS">
+        <test-method signature="verifyDynamicControls()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT09_DynamicControlTest@1247a07f]" started-at="2026-02-08T20:20:43 IST" name="verifyDynamicControls" finished-at="2026-02-08T20:21:03 IST" duration-ms="20246" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initialization of Dynamic Control Page]]>
@@ -1706,29 +1673,26 @@
             <line>
               <![CDATA[Start clicking on Diabled button]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyDynamicControls]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyDynamicControls -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT09_DynamicControlTest@13f95c7f]" started-at="2026-01-29T15:00:15 IST" name="afterMethod" finished-at="2026-01-29T15:00:15 IST" duration-ms="194" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT09_DynamicControlTest@1247a07f]" started-at="2026-02-08T20:21:03 IST" name="afterMethod" finished-at="2026-02-08T20:21:04 IST" duration-ms="284" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT09_DynamicControlTest@13f95c7f]" started-at="2026-01-29T15:00:15 IST" name="afterClass" finished-at="2026-01-29T15:00:15 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT09_DynamicControlTest@1247a07f]" started-at="2026-02-08T20:21:04 IST" name="afterClass" finished-at="2026-02-08T20:21:04 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.milestone.four.herokuapp.pagestest.FT09_DynamicControlTest -->
       <class name="com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest@495c70fa]" started-at="2026-01-29T14:58:06 IST" name="beforeClass" finished-at="2026-01-29T14:58:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest@421195fb]" started-at="2026-02-08T20:18:57 IST" name="beforeClass" finished-at="2026-02-08T20:18:57 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest@495c70fa]" started-at="2026-01-29T14:58:06 IST" name="beforeMethod" finished-at="2026-01-29T14:58:11 IST" duration-ms="4995" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest@421195fb]" started-at="2026-02-08T20:18:57 IST" name="beforeMethod" finished-at="2026-02-08T20:19:02 IST" duration-ms="4871" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1748,7 +1712,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyAddRemoveTest()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest@495c70fa]" started-at="2026-01-29T14:58:11 IST" name="verifyAddRemoveTest" finished-at="2026-01-29T14:58:18 IST" duration-ms="6939" status="PASS">
+        <test-method signature="verifyAddRemoveTest()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest@421195fb]" started-at="2026-02-08T20:19:02 IST" name="verifyAddRemoveTest" finished-at="2026-02-08T20:19:09 IST" duration-ms="7530" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing Add Remove Page]]>
@@ -1765,19 +1729,16 @@
             <line>
               <![CDATA[Deleting all delete Button]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyAddRemoveTest]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyAddRemoveTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest@495c70fa]" started-at="2026-01-29T14:58:18 IST" name="afterMethod" finished-at="2026-01-29T14:58:18 IST" duration-ms="155" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest@421195fb]" started-at="2026-02-08T20:19:10 IST" name="afterMethod" finished-at="2026-02-08T20:19:10 IST" duration-ms="271" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest@495c70fa]" started-at="2026-01-29T14:58:18 IST" name="beforeMethod" finished-at="2026-01-29T14:58:24 IST" duration-ms="5698" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest@421195fb]" started-at="2026-02-08T20:19:10 IST" name="beforeMethod" finished-at="2026-02-08T20:19:15 IST" duration-ms="4869" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1797,36 +1758,33 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyPageLoadsUnder3Seconds()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest@495c70fa]" started-at="2026-01-29T14:58:24 IST" name="verifyPageLoadsUnder3Seconds" finished-at="2026-01-29T14:58:24 IST" duration-ms="359" status="PASS">
+        <test-method signature="verifyPageLoadsUnder3Seconds()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest@421195fb]" started-at="2026-02-08T20:19:15 IST" name="verifyPageLoadsUnder3Seconds" finished-at="2026-02-08T20:19:15 IST" duration-ms="411" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing PerformancePage]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyPageLoadsUnder3Seconds]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyPageLoadsUnder3Seconds -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest@495c70fa]" started-at="2026-01-29T14:58:25 IST" name="afterMethod" finished-at="2026-01-29T14:58:25 IST" duration-ms="134" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest@421195fb]" started-at="2026-02-08T20:19:15 IST" name="afterMethod" finished-at="2026-02-08T20:19:15 IST" duration-ms="226" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest@495c70fa]" started-at="2026-01-29T14:58:25 IST" name="afterClass" finished-at="2026-01-29T14:58:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest@421195fb]" started-at="2026-02-08T20:19:15 IST" name="afterClass" finished-at="2026-02-08T20:19:16 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.milestone.four.herokuapp.pagestest.FT02_AddRemoveTest -->
     </test> <!-- heroku chrome test -->
-    <test started-at="2026-01-29T15:00:27 IST" name="heroku Firefox test" finished-at="2026-01-29T15:04:46 IST" duration-ms="258438">
+    <test started-at="2026-02-08T20:21:21 IST" name="heroku Firefox test" finished-at="2026-02-08T20:26:50 IST" duration-ms="328697">
       <class name="com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest@7c5a0185]" started-at="2026-01-29T15:00:27 IST" name="beforeClass" finished-at="2026-01-29T15:00:27 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest@1e58763a]" started-at="2026-02-08T20:21:21 IST" name="beforeClass" finished-at="2026-02-08T20:21:21 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest@7c5a0185]" started-at="2026-01-29T15:00:27 IST" name="beforeMethod" finished-at="2026-01-29T15:00:39 IST" duration-ms="11681" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest@1e58763a]" started-at="2026-02-08T20:21:21 IST" name="beforeMethod" finished-at="2026-02-08T20:21:30 IST" duration-ms="8813" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1846,7 +1804,89 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyEntryAdPopup()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest@7c5a0185]" started-at="2026-01-29T15:00:39 IST" name="verifyEntryAdPopup" finished-at="2026-01-29T15:00:40 IST" duration-ms="1109" status="PASS">
+        <test-method signature="verifyEntryAdPopup()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest@1e58763a]" started-at="2026-02-08T20:21:30 IST" name="verifyEntryAdPopup" finished-at="2026-02-08T20:21:31 IST" duration-ms="1335" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Modal popup should be closed but is still visible! expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Modal popup should be closed but is still visible! expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest.verifyEntryAdPopup(FT11_EntryAdTest.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.milestone.four.runner.TestNGSuiteRunner.runSuite(TestNGSuiteRunner.java:25)
+at com.milestone.four.service.TestExecutionService.executeSuite(TestExecutionService.java:28)
+at com.milestone.four.controller.UITestController.runSuite(UITestController.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
               <![CDATA[Initializing EntryAdPage]]>
@@ -1860,29 +1900,26 @@
             <line>
               <![CDATA[Checking if modal popup is closed]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyEntryAdPopup]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyEntryAdPopup -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest@7c5a0185]" started-at="2026-01-29T15:00:40 IST" name="afterMethod" finished-at="2026-01-29T15:00:41 IST" duration-ms="875" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest@1e58763a]" started-at="2026-02-08T20:21:31 IST" name="afterMethod" finished-at="2026-02-08T20:21:33 IST" duration-ms="1577" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest@7c5a0185]" started-at="2026-01-29T15:00:41 IST" name="afterClass" finished-at="2026-01-29T15:00:41 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest@1e58763a]" started-at="2026-02-08T20:21:33 IST" name="afterClass" finished-at="2026-02-08T20:21:33 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.milestone.four.herokuapp.pagestest.FT11_EntryAdTest -->
       <class name="com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest@64b686f9]" started-at="2026-01-29T15:02:36 IST" name="beforeClass" finished-at="2026-01-29T15:02:36 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest@6f466594]" started-at="2026-02-08T20:24:52 IST" name="beforeClass" finished-at="2026-02-08T20:24:52 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest@64b686f9]" started-at="2026-01-29T15:02:36 IST" name="beforeMethod" finished-at="2026-01-29T15:02:44 IST" duration-ms="7717" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest@6f466594]" started-at="2026-02-08T20:24:52 IST" name="beforeMethod" finished-at="2026-02-08T20:25:07 IST" duration-ms="14267" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1902,7 +1939,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifySliderMovesUsingActions()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest@64b686f9]" started-at="2026-01-29T15:02:44 IST" name="verifySliderMovesUsingActions" finished-at="2026-01-29T15:02:45 IST" duration-ms="1099" status="PASS">
+        <test-method signature="verifySliderMovesUsingActions()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest@6f466594]" started-at="2026-02-08T20:25:07 IST" name="verifySliderMovesUsingActions" finished-at="2026-02-08T20:25:08 IST" duration-ms="1324" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing HorizontalSliderPage]]>
@@ -1913,29 +1950,26 @@
             <line>
               <![CDATA[Moved slider using Actions successfully]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifySliderMovesUsingActions]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifySliderMovesUsingActions -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest@64b686f9]" started-at="2026-01-29T15:02:45 IST" name="afterMethod" finished-at="2026-01-29T15:02:46 IST" duration-ms="1040" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest@6f466594]" started-at="2026-02-08T20:25:08 IST" name="afterMethod" finished-at="2026-02-08T20:25:10 IST" duration-ms="1552" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest@64b686f9]" started-at="2026-01-29T15:02:46 IST" name="afterClass" finished-at="2026-01-29T15:02:46 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest@6f466594]" started-at="2026-02-08T20:25:10 IST" name="afterClass" finished-at="2026-02-08T20:25:10 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.milestone.four.herokuapp.pagestest.FT17_HorizontalSliderTest -->
       <class name="com.milestone.four.herokuapp.pagestest.FT18_HoversTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT18_HoversTest@4f42d0ca]" started-at="2026-01-29T15:02:46 IST" name="beforeClass" finished-at="2026-01-29T15:02:46 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT18_HoversTest@2dce057d]" started-at="2026-02-08T20:25:10 IST" name="beforeClass" finished-at="2026-02-08T20:25:10 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT18_HoversTest@4f42d0ca]" started-at="2026-01-29T15:02:46 IST" name="beforeMethod" finished-at="2026-01-29T15:02:54 IST" duration-ms="7709" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT18_HoversTest@2dce057d]" started-at="2026-02-08T20:25:10 IST" name="beforeMethod" finished-at="2026-02-08T20:25:18 IST" duration-ms="8570" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1955,7 +1989,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyHoverUserProfile()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT18_HoversTest@4f42d0ca]" started-at="2026-01-29T15:02:54 IST" name="verifyHoverUserProfile" finished-at="2026-01-29T15:02:55 IST" duration-ms="1311" status="PASS">
+        <test-method signature="verifyHoverUserProfile()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT18_HoversTest@2dce057d]" started-at="2026-02-08T20:25:18 IST" name="verifyHoverUserProfile" finished-at="2026-02-08T20:25:20 IST" duration-ms="1611" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing HoversPage]]>
@@ -1969,19 +2003,16 @@
             <line>
               <![CDATA[Hovering over user index: 2]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyHoverUserProfile]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyHoverUserProfile -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT18_HoversTest@4f42d0ca]" started-at="2026-01-29T15:02:55 IST" name="afterMethod" finished-at="2026-01-29T15:02:56 IST" duration-ms="1006" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT18_HoversTest@2dce057d]" started-at="2026-02-08T20:25:20 IST" name="afterMethod" finished-at="2026-02-08T20:25:21 IST" duration-ms="1498" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT18_HoversTest@4f42d0ca]" started-at="2026-01-29T15:02:56 IST" name="beforeMethod" finished-at="2026-01-29T15:03:04 IST" duration-ms="8321" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT18_HoversTest@2dce057d]" started-at="2026-02-08T20:25:21 IST" name="beforeMethod" finished-at="2026-02-08T20:25:30 IST" duration-ms="8759" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2001,34 +2032,27 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyPageLoadsUnder3Seconds()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT18_HoversTest@4f42d0ca]" started-at="2026-01-29T15:03:04 IST" name="verifyPageLoadsUnder3Seconds" finished-at="2026-01-29T15:03:05 IST" duration-ms="678" status="PASS">
+        <test-method signature="verifyPageLoadsUnder3Seconds()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT18_HoversTest@2dce057d]" started-at="2026-02-08T20:25:30 IST" name="verifyPageLoadsUnder3Seconds" finished-at="2026-02-08T20:25:31 IST" duration-ms="739" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing PerformancePage]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyPageLoadsUnder3Seconds]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyPageLoadsUnder3Seconds -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT18_HoversTest@4f42d0ca]" started-at="2026-01-29T15:03:05 IST" name="afterMethod" finished-at="2026-01-29T15:03:06 IST" duration-ms="1016" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT18_HoversTest@2dce057d]" started-at="2026-02-08T20:25:31 IST" name="afterMethod" finished-at="2026-02-08T20:25:33 IST" duration-ms="1646" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT18_HoversTest@4f42d0ca]" started-at="2026-01-29T15:03:06 IST" name="afterClass" finished-at="2026-01-29T15:03:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT18_HoversTest@2dce057d]" started-at="2026-02-08T20:25:33 IST" name="afterClass" finished-at="2026-02-08T20:25:33 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.milestone.four.herokuapp.pagestest.FT18_HoversTest -->
       <class name="com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest@1ff68520]" started-at="2026-01-29T15:01:16 IST" name="beforeClass" finished-at="2026-01-29T15:01:16 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest@1ff68520]" started-at="2026-01-29T15:01:16 IST" name="beforeMethod" finished-at="2026-01-29T15:01:24 IST" duration-ms="7613" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest@5e738736]" started-at="2026-02-08T20:22:35 IST" name="beforeMethod" finished-at="2026-02-08T20:22:54 IST" duration-ms="18779" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2048,7 +2072,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyFileDownloadLink()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest@1ff68520]" started-at="2026-01-29T15:01:24 IST" name="verifyFileDownloadLink" finished-at="2026-01-29T15:01:30 IST" duration-ms="6947" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest@5e738736]" started-at="2026-02-08T20:22:35 IST" name="beforeClass" finished-at="2026-02-08T20:22:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyFileDownloadLink()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest@5e738736]" started-at="2026-02-08T20:22:54 IST" name="verifyFileDownloadLink" finished-at="2026-02-08T20:23:02 IST" duration-ms="7540" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing FileDownloadPage]]>
@@ -2059,19 +2087,16 @@
             <line>
               <![CDATA[Clicking file download link]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyFileDownloadLink]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyFileDownloadLink -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest@1ff68520]" started-at="2026-01-29T15:01:31 IST" name="afterMethod" finished-at="2026-01-29T15:01:32 IST" duration-ms="1034" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest@5e738736]" started-at="2026-02-08T20:23:02 IST" name="afterMethod" finished-at="2026-02-08T20:23:03 IST" duration-ms="1554" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest@1ff68520]" started-at="2026-01-29T15:01:32 IST" name="beforeMethod" finished-at="2026-01-29T15:01:39 IST" duration-ms="7623" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest@5e738736]" started-at="2026-02-08T20:23:03 IST" name="beforeMethod" finished-at="2026-02-08T20:23:29 IST" duration-ms="25865" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2091,30 +2116,31 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyPageLoadsUnder3Seconds()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest@1ff68520]" started-at="2026-01-29T15:01:39 IST" name="verifyPageLoadsUnder3Seconds" finished-at="2026-01-29T15:01:40 IST" duration-ms="409" status="PASS">
+        <test-method signature="verifyPageLoadsUnder3Seconds()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest@5e738736]" started-at="2026-02-08T20:23:29 IST" name="verifyPageLoadsUnder3Seconds" finished-at="2026-02-08T20:23:31 IST" duration-ms="2091" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing PerformancePage]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyPageLoadsUnder3Seconds]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyPageLoadsUnder3Seconds -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest@1ff68520]" started-at="2026-01-29T15:01:40 IST" name="afterMethod" finished-at="2026-01-29T15:01:41 IST" duration-ms="1004" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest@5e738736]" started-at="2026-02-08T20:23:31 IST" name="afterMethod" finished-at="2026-02-08T20:23:33 IST" duration-ms="1923" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest@1ff68520]" started-at="2026-01-29T15:01:41 IST" name="afterClass" finished-at="2026-01-29T15:01:41 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest@5e738736]" started-at="2026-02-08T20:23:33 IST" name="afterClass" finished-at="2026-02-08T20:23:33 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.milestone.four.herokuapp.pagestest.FT14_FileDownloadTest -->
       <class name="com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest@43a20d01]" started-at="2026-01-29T15:00:50 IST" name="beforeMethod" finished-at="2026-01-29T15:01:01 IST" duration-ms="10816" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest@5b0e1dc2]" started-at="2026-02-08T20:22:02 IST" name="beforeClass" finished-at="2026-02-08T20:22:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest@5b0e1dc2]" started-at="2026-02-08T20:22:02 IST" name="beforeMethod" finished-at="2026-02-08T20:22:16 IST" duration-ms="13844" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2134,11 +2160,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest@43a20d01]" started-at="2026-01-29T15:00:50 IST" name="beforeClass" finished-at="2026-01-29T15:00:50 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="verifyFileUpload()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest@43a20d01]" started-at="2026-01-29T15:01:01 IST" name="verifyFileUpload" finished-at="2026-01-29T15:01:03 IST" duration-ms="1914" status="PASS">
+        <test-method signature="verifyFileUpload()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest@5b0e1dc2]" started-at="2026-02-08T20:22:16 IST" name="verifyFileUpload" finished-at="2026-02-08T20:22:22 IST" duration-ms="5959" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing FileUploadPage]]>
@@ -2152,19 +2174,16 @@
             <line>
               <![CDATA[Uploaded file name: Sample.txt.txt]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyFileUpload]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyFileUpload -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest@43a20d01]" started-at="2026-01-29T15:01:03 IST" name="afterMethod" finished-at="2026-01-29T15:01:04 IST" duration-ms="1118" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest@5b0e1dc2]" started-at="2026-02-08T20:22:22 IST" name="afterMethod" finished-at="2026-02-08T20:22:23 IST" duration-ms="1543" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest@43a20d01]" started-at="2026-01-29T15:01:04 IST" name="beforeMethod" finished-at="2026-01-29T15:01:13 IST" duration-ms="9748" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest@5b0e1dc2]" started-at="2026-02-08T20:22:23 IST" name="beforeMethod" finished-at="2026-02-08T20:22:33 IST" duration-ms="9732" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2184,34 +2203,31 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyPageLoadsUnder3Seconds()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest@43a20d01]" started-at="2026-01-29T15:01:13 IST" name="verifyPageLoadsUnder3Seconds" finished-at="2026-01-29T15:01:15 IST" duration-ms="1365" status="PASS">
+        <test-method signature="verifyPageLoadsUnder3Seconds()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest@5b0e1dc2]" started-at="2026-02-08T20:22:33 IST" name="verifyPageLoadsUnder3Seconds" finished-at="2026-02-08T20:22:34 IST" duration-ms="725" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing PerformancePage]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyPageLoadsUnder3Seconds]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyPageLoadsUnder3Seconds -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest@43a20d01]" started-at="2026-01-29T15:01:15 IST" name="afterMethod" finished-at="2026-01-29T15:01:16 IST" duration-ms="1040" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest@5b0e1dc2]" started-at="2026-02-08T20:22:34 IST" name="afterMethod" finished-at="2026-02-08T20:22:35 IST" duration-ms="1581" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest@43a20d01]" started-at="2026-01-29T15:01:16 IST" name="afterClass" finished-at="2026-01-29T15:01:16 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest@5b0e1dc2]" started-at="2026-02-08T20:22:35 IST" name="afterClass" finished-at="2026-02-08T20:22:35 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.milestone.four.herokuapp.pagestest.FT13_FileUploadTest -->
       <class name="com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest@1b51e729]" started-at="2026-01-29T15:03:06 IST" name="beforeClass" finished-at="2026-01-29T15:03:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest@102f3f43]" started-at="2026-02-08T20:25:33 IST" name="beforeClass" finished-at="2026-02-08T20:25:33 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest@1b51e729]" started-at="2026-01-29T15:03:06 IST" name="beforeMethod" finished-at="2026-01-29T15:03:14 IST" duration-ms="7685" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest@102f3f43]" started-at="2026-02-08T20:25:33 IST" name="beforeMethod" finished-at="2026-02-08T20:25:43 IST" duration-ms="10272" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2231,7 +2247,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyInfiniteScrollLoadsMoreContent()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest@1b51e729]" started-at="2026-01-29T15:03:14 IST" name="verifyInfiniteScrollLoadsMoreContent" finished-at="2026-01-29T15:03:19 IST" duration-ms="4862" status="PASS">
+        <test-method signature="verifyInfiniteScrollLoadsMoreContent()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest@102f3f43]" started-at="2026-02-08T20:25:43 IST" name="verifyInfiniteScrollLoadsMoreContent" finished-at="2026-02-08T20:25:48 IST" duration-ms="5013" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing InfiniteScrollPage]]>
@@ -2248,29 +2264,26 @@
             <line>
               <![CDATA[Scrolling down the page]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyInfiniteScrollLoadsMoreContent]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyInfiniteScrollLoadsMoreContent -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest@1b51e729]" started-at="2026-01-29T15:03:19 IST" name="afterMethod" finished-at="2026-01-29T15:03:20 IST" duration-ms="1054" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest@102f3f43]" started-at="2026-02-08T20:25:48 IST" name="afterMethod" finished-at="2026-02-08T20:25:50 IST" duration-ms="1556" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest@1b51e729]" started-at="2026-01-29T15:03:20 IST" name="afterClass" finished-at="2026-01-29T15:03:20 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest@102f3f43]" started-at="2026-02-08T20:25:50 IST" name="afterClass" finished-at="2026-02-08T20:25:50 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.milestone.four.herokuapp.pagestest.FT19_InfiniteScrollTest -->
       <class name="com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@37af5f08]" started-at="2026-01-29T15:01:54 IST" name="beforeClass" finished-at="2026-01-29T15:01:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@440d80da]" started-at="2026-02-08T20:23:50 IST" name="beforeClass" finished-at="2026-02-08T20:23:50 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@37af5f08]" started-at="2026-01-29T15:01:54 IST" name="beforeMethod" finished-at="2026-01-29T15:02:01 IST" duration-ms="7125" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@440d80da]" started-at="2026-02-08T20:23:50 IST" name="beforeMethod" finished-at="2026-02-08T20:24:04 IST" duration-ms="14572" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2290,7 +2303,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyLoginCredentials(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@37af5f08]" started-at="2026-01-29T15:02:01 IST" name="verifyLoginCredentials" data-provider="LoginForm" finished-at="2026-01-29T15:02:03 IST" duration-ms="2441" status="PASS">
+        <test-method signature="verifyLoginCredentials(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@440d80da]" started-at="2026-02-08T20:24:04 IST" name="verifyLoginCredentials" data-provider="LoginForm" finished-at="2026-02-08T20:24:08 IST" duration-ms="3605" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2312,19 +2325,16 @@
             <line>
               <![CDATA[Initialization of LoginForm Page Authentication]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyLoginCredentials]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyLoginCredentials -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@37af5f08]" started-at="2026-01-29T15:02:03 IST" name="afterMethod" finished-at="2026-01-29T15:02:04 IST" duration-ms="1189" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@440d80da]" started-at="2026-02-08T20:24:08 IST" name="afterMethod" finished-at="2026-02-08T20:24:10 IST" duration-ms="1565" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@37af5f08]" started-at="2026-01-29T15:02:04 IST" name="beforeMethod" finished-at="2026-01-29T15:02:12 IST" duration-ms="7564" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@440d80da]" started-at="2026-02-08T20:24:10 IST" name="beforeMethod" finished-at="2026-02-08T20:24:18 IST" duration-ms="8798" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2344,7 +2354,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyLoginCredentials(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@37af5f08]" started-at="2026-01-29T15:02:12 IST" name="verifyLoginCredentials" data-provider="LoginForm" finished-at="2026-01-29T15:02:14 IST" duration-ms="1663" status="PASS">
+        <test-method signature="verifyLoginCredentials(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@440d80da]" started-at="2026-02-08T20:24:18 IST" name="verifyLoginCredentials" data-provider="LoginForm" finished-at="2026-02-08T20:24:20 IST" duration-ms="2021" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2366,19 +2376,16 @@
             <line>
               <![CDATA[Initialization of LoginForm Page Authentication]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyLoginCredentials]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyLoginCredentials -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@37af5f08]" started-at="2026-01-29T15:02:14 IST" name="afterMethod" finished-at="2026-01-29T15:02:15 IST" duration-ms="1019" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@440d80da]" started-at="2026-02-08T20:24:21 IST" name="afterMethod" finished-at="2026-02-08T20:24:22 IST" duration-ms="1567" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@37af5f08]" started-at="2026-01-29T15:02:15 IST" name="beforeMethod" finished-at="2026-01-29T15:02:22 IST" duration-ms="7534" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@440d80da]" started-at="2026-02-08T20:24:22 IST" name="beforeMethod" finished-at="2026-02-08T20:24:36 IST" duration-ms="13989" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2398,7 +2405,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyLoginCredentials(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@37af5f08]" started-at="2026-01-29T15:02:22 IST" name="verifyLoginCredentials" data-provider="LoginForm" finished-at="2026-01-29T15:02:24 IST" duration-ms="1719" status="PASS">
+        <test-method signature="verifyLoginCredentials(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@440d80da]" started-at="2026-02-08T20:24:36 IST" name="verifyLoginCredentials" data-provider="LoginForm" finished-at="2026-02-08T20:24:38 IST" duration-ms="2340" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2420,19 +2427,16 @@
             <line>
               <![CDATA[Initialization of LoginForm Page Authentication]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyLoginCredentials]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyLoginCredentials -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@37af5f08]" started-at="2026-01-29T15:02:24 IST" name="afterMethod" finished-at="2026-01-29T15:02:25 IST" duration-ms="1003" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@440d80da]" started-at="2026-02-08T20:24:38 IST" name="afterMethod" finished-at="2026-02-08T20:24:40 IST" duration-ms="1513" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@37af5f08]" started-at="2026-01-29T15:02:25 IST" name="beforeMethod" finished-at="2026-01-29T15:02:33 IST" duration-ms="8398" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@440d80da]" started-at="2026-02-08T20:24:40 IST" name="beforeMethod" finished-at="2026-02-08T20:24:49 IST" duration-ms="8744" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2452,7 +2456,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyLoginCredentials(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@37af5f08]" started-at="2026-01-29T15:02:33 IST" name="verifyLoginCredentials" data-provider="LoginForm" finished-at="2026-01-29T15:02:35 IST" duration-ms="1655" status="PASS">
+        <test-method signature="verifyLoginCredentials(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@440d80da]" started-at="2026-02-08T20:24:49 IST" name="verifyLoginCredentials" data-provider="LoginForm" finished-at="2026-02-08T20:24:51 IST" duration-ms="2039" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2474,29 +2478,22 @@
             <line>
               <![CDATA[Initialization of LoginForm Page Authentication]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyLoginCredentials]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyLoginCredentials -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@37af5f08]" started-at="2026-01-29T15:02:35 IST" name="afterMethod" finished-at="2026-01-29T15:02:36 IST" duration-ms="1001" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@440d80da]" started-at="2026-02-08T20:24:51 IST" name="afterMethod" finished-at="2026-02-08T20:24:52 IST" duration-ms="1639" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@37af5f08]" started-at="2026-01-29T15:02:36 IST" name="afterClass" finished-at="2026-01-29T15:02:36 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest@440d80da]" started-at="2026-02-08T20:24:52 IST" name="afterClass" finished-at="2026-02-08T20:24:52 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.milestone.four.herokuapp.pagestest.FT16_LoginFormTest -->
       <class name="com.milestone.four.herokuapp.pagestest.FT15_FloatingMenuTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT15_FloatingMenuTest@330ce972]" started-at="2026-01-29T15:01:41 IST" name="beforeClass" finished-at="2026-01-29T15:01:41 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT15_FloatingMenuTest@330ce972]" started-at="2026-01-29T15:01:41 IST" name="beforeMethod" finished-at="2026-01-29T15:01:52 IST" duration-ms="11100" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT15_FloatingMenuTest@3c7c364]" started-at="2026-02-08T20:23:33 IST" name="beforeMethod" finished-at="2026-02-08T20:23:47 IST" duration-ms="14062" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2516,7 +2513,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyFloatingMenuStaysVisible()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT15_FloatingMenuTest@330ce972]" started-at="2026-01-29T15:01:52 IST" name="verifyFloatingMenuStaysVisible" finished-at="2026-01-29T15:01:53 IST" duration-ms="836" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT15_FloatingMenuTest@3c7c364]" started-at="2026-02-08T20:23:33 IST" name="beforeClass" finished-at="2026-02-08T20:23:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyFloatingMenuStaysVisible()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT15_FloatingMenuTest@3c7c364]" started-at="2026-02-08T20:23:47 IST" name="verifyFloatingMenuStaysVisible" finished-at="2026-02-08T20:23:48 IST" duration-ms="1066" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing FloatingMenuPage]]>
@@ -2533,29 +2534,22 @@
             <line>
               <![CDATA[Checking if floating menu is displayed]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyFloatingMenuStaysVisible]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyFloatingMenuStaysVisible -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT15_FloatingMenuTest@330ce972]" started-at="2026-01-29T15:01:53 IST" name="afterMethod" finished-at="2026-01-29T15:01:54 IST" duration-ms="1017" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT15_FloatingMenuTest@3c7c364]" started-at="2026-02-08T20:23:48 IST" name="afterMethod" finished-at="2026-02-08T20:23:50 IST" duration-ms="1464" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT15_FloatingMenuTest@330ce972]" started-at="2026-01-29T15:01:54 IST" name="afterClass" finished-at="2026-01-29T15:01:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT15_FloatingMenuTest@3c7c364]" started-at="2026-02-08T20:23:50 IST" name="afterClass" finished-at="2026-02-08T20:23:50 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.milestone.four.herokuapp.pagestest.FT15_FloatingMenuTest -->
       <class name="com.milestone.four.herokuapp.pagestest.FT12_TyposTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT12_TyposTest@5b9bf78c]" started-at="2026-01-29T15:00:41 IST" name="beforeClass" finished-at="2026-01-29T15:00:41 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT12_TyposTest@5b9bf78c]" started-at="2026-01-29T15:00:41 IST" name="beforeMethod" finished-at="2026-01-29T15:00:48 IST" duration-ms="7195" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT12_TyposTest@2bfd8e08]" started-at="2026-02-08T20:21:33 IST" name="beforeMethod" finished-at="2026-02-08T20:21:59 IST" duration-ms="26253" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2575,34 +2569,31 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyNoTypoInParagraph()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT12_TyposTest@5b9bf78c]" started-at="2026-01-29T15:00:48 IST" name="verifyNoTypoInParagraph" finished-at="2026-01-29T15:00:49 IST" duration-ms="592" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT12_TyposTest@2bfd8e08]" started-at="2026-02-08T20:21:33 IST" name="beforeClass" finished-at="2026-02-08T20:21:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyNoTypoInParagraph()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT12_TyposTest@2bfd8e08]" started-at="2026-02-08T20:21:59 IST" name="verifyNoTypoInParagraph" finished-at="2026-02-08T20:22:00 IST" duration-ms="803" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing TyposPage]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyNoTypoInParagraph]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyNoTypoInParagraph -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT12_TyposTest@5b9bf78c]" started-at="2026-01-29T15:00:49 IST" name="afterMethod" finished-at="2026-01-29T15:00:50 IST" duration-ms="1008" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT12_TyposTest@2bfd8e08]" started-at="2026-02-08T20:22:00 IST" name="afterMethod" finished-at="2026-02-08T20:22:02 IST" duration-ms="1621" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT12_TyposTest@5b9bf78c]" started-at="2026-01-29T15:00:50 IST" name="afterClass" finished-at="2026-01-29T15:00:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT12_TyposTest@2bfd8e08]" started-at="2026-02-08T20:22:02 IST" name="afterClass" finished-at="2026-02-08T20:22:02 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.milestone.four.herokuapp.pagestest.FT12_TyposTest -->
       <class name="com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@56cbac54]" started-at="2026-01-29T15:03:20 IST" name="beforeClass" finished-at="2026-01-29T15:03:20 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@56cbac54]" started-at="2026-01-29T15:03:20 IST" name="beforeMethod" finished-at="2026-01-29T15:03:28 IST" duration-ms="7864" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@380c66cc]" started-at="2026-02-08T20:25:50 IST" name="beforeMethod" finished-at="2026-02-08T20:25:58 IST" duration-ms="8610" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2622,24 +2613,25 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyPageLoadsUnder3Seconds()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@56cbac54]" started-at="2026-01-29T15:03:28 IST" name="verifyPageLoadsUnder3Seconds" finished-at="2026-01-29T15:03:28 IST" duration-ms="389" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@380c66cc]" started-at="2026-02-08T20:25:50 IST" name="beforeClass" finished-at="2026-02-08T20:25:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyPageLoadsUnder3Seconds()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@380c66cc]" started-at="2026-02-08T20:25:58 IST" name="verifyPageLoadsUnder3Seconds" finished-at="2026-02-08T20:25:59 IST" duration-ms="485" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Initializing PerformancePage]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyPageLoadsUnder3Seconds]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyPageLoadsUnder3Seconds -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@56cbac54]" started-at="2026-01-29T15:03:28 IST" name="afterMethod" finished-at="2026-01-29T15:03:29 IST" duration-ms="895" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@380c66cc]" started-at="2026-02-08T20:25:59 IST" name="afterMethod" finished-at="2026-02-08T20:26:00 IST" duration-ms="1612" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@56cbac54]" started-at="2026-01-29T15:03:29 IST" name="beforeMethod" finished-at="2026-01-29T15:03:37 IST" duration-ms="7984" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@380c66cc]" started-at="2026-02-08T20:26:00 IST" name="beforeMethod" finished-at="2026-02-08T20:26:10 IST" duration-ms="9570" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2659,7 +2651,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyStatusCodeMessage(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@56cbac54]" started-at="2026-01-29T15:03:37 IST" name="verifyStatusCodeMessage" data-provider="StatusCode" finished-at="2026-01-29T15:03:38 IST" duration-ms="1010" status="PASS">
+        <test-method signature="verifyStatusCodeMessage(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@380c66cc]" started-at="2026-02-08T20:26:10 IST" name="verifyStatusCodeMessage" data-provider="StatusCode" finished-at="2026-02-08T20:26:11 IST" duration-ms="1349" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2667,6 +2659,88 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Status message does not contain expected code: 200 expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Status message does not contain expected code: 200 expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest.verifyStatusCodeMessage(FT20_StatusCodesTest.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.milestone.four.runner.TestNGSuiteRunner.runSuite(TestNGSuiteRunner.java:25)
+at com.milestone.four.service.TestExecutionService.executeSuite(TestExecutionService.java:28)
+at com.milestone.four.controller.UITestController.runSuite(UITestController.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
               <![CDATA[Initializing StatusCodesPage]]>
@@ -2674,19 +2748,16 @@
             <line>
               <![CDATA[Clicking Status Code: 200]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyStatusCodeMessage]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyStatusCodeMessage -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@56cbac54]" started-at="2026-01-29T15:03:38 IST" name="afterMethod" finished-at="2026-01-29T15:03:39 IST" duration-ms="1041" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@380c66cc]" started-at="2026-02-08T20:26:11 IST" name="afterMethod" finished-at="2026-02-08T20:26:13 IST" duration-ms="1473" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@56cbac54]" started-at="2026-01-29T15:03:39 IST" name="beforeMethod" finished-at="2026-01-29T15:04:03 IST" duration-ms="24253" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@380c66cc]" started-at="2026-02-08T20:26:13 IST" name="beforeMethod" finished-at="2026-02-08T20:26:24 IST" duration-ms="11099" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2706,7 +2777,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyStatusCodeMessage(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@56cbac54]" started-at="2026-01-29T15:04:03 IST" name="verifyStatusCodeMessage" data-provider="StatusCode" finished-at="2026-01-29T15:04:04 IST" duration-ms="984" status="PASS">
+        <test-method signature="verifyStatusCodeMessage(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@380c66cc]" started-at="2026-02-08T20:26:24 IST" name="verifyStatusCodeMessage" data-provider="StatusCode" finished-at="2026-02-08T20:26:25 IST" duration-ms="1356" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2714,6 +2785,88 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Status message does not contain expected code: 301 expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Status message does not contain expected code: 301 expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest.verifyStatusCodeMessage(FT20_StatusCodesTest.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.milestone.four.runner.TestNGSuiteRunner.runSuite(TestNGSuiteRunner.java:25)
+at com.milestone.four.service.TestExecutionService.executeSuite(TestExecutionService.java:28)
+at com.milestone.four.controller.UITestController.runSuite(UITestController.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
               <![CDATA[Initializing StatusCodesPage]]>
@@ -2721,19 +2874,16 @@
             <line>
               <![CDATA[Clicking Status Code: 301]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyStatusCodeMessage]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyStatusCodeMessage -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@56cbac54]" started-at="2026-01-29T15:04:04 IST" name="afterMethod" finished-at="2026-01-29T15:04:05 IST" duration-ms="883" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@380c66cc]" started-at="2026-02-08T20:26:25 IST" name="afterMethod" finished-at="2026-02-08T20:26:27 IST" duration-ms="1611" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@56cbac54]" started-at="2026-01-29T15:04:05 IST" name="beforeMethod" finished-at="2026-01-29T15:04:13 IST" duration-ms="7350" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@380c66cc]" started-at="2026-02-08T20:26:27 IST" name="beforeMethod" finished-at="2026-02-08T20:26:36 IST" duration-ms="8947" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2753,7 +2903,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyStatusCodeMessage(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@56cbac54]" started-at="2026-01-29T15:04:13 IST" name="verifyStatusCodeMessage" data-provider="StatusCode" finished-at="2026-01-29T15:04:14 IST" duration-ms="1087" status="PASS">
+        <test-method signature="verifyStatusCodeMessage(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@380c66cc]" started-at="2026-02-08T20:26:36 IST" name="verifyStatusCodeMessage" data-provider="StatusCode" finished-at="2026-02-08T20:26:37 IST" duration-ms="1272" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2761,6 +2911,88 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Status message does not contain expected code: 404 expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Status message does not contain expected code: 404 expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest.verifyStatusCodeMessage(FT20_StatusCodesTest.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.milestone.four.runner.TestNGSuiteRunner.runSuite(TestNGSuiteRunner.java:25)
+at com.milestone.four.service.TestExecutionService.executeSuite(TestExecutionService.java:28)
+at com.milestone.four.controller.UITestController.runSuite(UITestController.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
               <![CDATA[Initializing StatusCodesPage]]>
@@ -2768,19 +3000,16 @@
             <line>
               <![CDATA[Clicking Status Code: 404]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyStatusCodeMessage]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyStatusCodeMessage -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@56cbac54]" started-at="2026-01-29T15:04:14 IST" name="afterMethod" finished-at="2026-01-29T15:04:15 IST" duration-ms="1415" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@380c66cc]" started-at="2026-02-08T20:26:37 IST" name="afterMethod" finished-at="2026-02-08T20:26:39 IST" duration-ms="1493" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@56cbac54]" started-at="2026-01-29T15:04:15 IST" name="beforeMethod" finished-at="2026-01-29T15:04:44 IST" duration-ms="28744" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@380c66cc]" started-at="2026-02-08T20:26:39 IST" name="beforeMethod" finished-at="2026-02-08T20:26:47 IST" duration-ms="8451" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -2800,7 +3029,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyStatusCodeMessage(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@56cbac54]" started-at="2026-01-29T15:04:44 IST" name="verifyStatusCodeMessage" data-provider="StatusCode" finished-at="2026-01-29T15:04:45 IST" duration-ms="997" status="PASS">
+        <test-method signature="verifyStatusCodeMessage(java.lang.String)[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@380c66cc]" started-at="2026-02-08T20:26:47 IST" name="verifyStatusCodeMessage" data-provider="StatusCode" finished-at="2026-02-08T20:26:48 IST" duration-ms="1290" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -2808,6 +3037,88 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Status message does not contain expected code: 500 expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Status message does not contain expected code: 500 expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest.verifyStatusCodeMessage(FT20_StatusCodesTest.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.milestone.four.runner.TestNGSuiteRunner.runSuite(TestNGSuiteRunner.java:25)
+at com.milestone.four.service.TestExecutionService.executeSuite(TestExecutionService.java:28)
+at com.milestone.four.controller.UITestController.runSuite(UITestController.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
               <![CDATA[Initializing StatusCodesPage]]>
@@ -2815,19 +3126,16 @@
             <line>
               <![CDATA[Clicking Status Code: 500]]>
             </line>
-            <line>
-              <![CDATA[Test PASSED: verifyStatusCodeMessage]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyStatusCodeMessage -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@56cbac54]" started-at="2026-01-29T15:04:45 IST" name="afterMethod" finished-at="2026-01-29T15:04:46 IST" duration-ms="883" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@380c66cc]" started-at="2026-02-08T20:26:48 IST" name="afterMethod" finished-at="2026-02-08T20:26:50 IST" duration-ms="1525" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is closing]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@56cbac54]" started-at="2026-01-29T15:04:46 IST" name="afterClass" finished-at="2026-01-29T15:04:46 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.milestone.four.herokuapp.pagestest.FT20_StatusCodesTest@380c66cc]" started-at="2026-02-08T20:26:50 IST" name="afterClass" finished-at="2026-02-08T20:26:50 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

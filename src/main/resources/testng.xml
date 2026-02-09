@@ -1,7 +1,7 @@
 <suite name="OrangeHRM Suite">
 
     <listeners>
-        <listener class-name="orangehrm.listener.TestListener"/>
+        <listener class-name="com.milestone.four.listener.TestListener"/>
     </listeners>
 
    

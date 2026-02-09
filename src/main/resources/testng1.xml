@@ -1,7 +1,7 @@
 <suite name="herokuapp Suite">
 
     <listeners>
-        <listener class-name="com.milestone.four.listener.ScreenshotListener"/>
+        <listener class-name="com.milestone.four.listener.TestListener"/>
     </listeners>
 
 

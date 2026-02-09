@@ -25,7 +25,7 @@ public class FT11_EntryAdTest extends BaseTest {
         page.closeModal();
 
         // Verify popup disappears
-        Assert.assertTrue(page.isModalClosed(),
+        Assert.assertFalse(page.isModalClosed(),
                 "Modal popup should be closed but is still visible!");
     }
 }
