@@ -122,7 +122,8 @@ http://localhost:8082/ui/dashboard
 
 ## Screenshot
 
-![alt text](image.png)
+<img width="1920" height="920" alt="Screenshot 2026-03-28 002719" src="https://github.com/user-attachments/assets/a803c114-8cda-4c3b-aab7-c7c9c5c927cd" />
+
 
 ---
 
